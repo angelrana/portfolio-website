@@ -4,27 +4,27 @@ import "./App.css";
 import { useState } from "react";
 import { Link } from 'react-router-dom';
 
-function Heading() {
-    return (
+// function Heading() {
+//     return (
     
-        <Box>
-          <img
-            alt="angel wings"
-            src="https://t3.ftcdn.net/jpg/05/30/60/16/360_F_530601668_ZQ8ehfZvV18rfvOA4GSX5YLoHj3gaIY1.jpg"
-            className="image"
-            style={{
-                width: "100vw",
-                height: "128vh",
-              overflow: "hidden",
-              position: "absolute",
-              top: 0,
-              left: 0,
+//         <Box>
+//           <img
+//             alt="angel wings"
+//             src="https://t3.ftcdn.net/jpg/05/30/60/16/360_F_530601668_ZQ8ehfZvV18rfvOA4GSX5YLoHj3gaIY1.jpg"
+//             className="image"
+//             style={{
+//                 width: "100vw",
+//                 height: "128vh",
+//               overflow: "hidden",
+//               position: "absolute",
+//               top: 0,
+//               left: 0,
            
-            }}></img>
-        </Box>
+//             }}></img>
+//         </Box>
      
-    );
-}
+//     );
+// }
 
 
 const Home = () => {
@@ -50,14 +50,10 @@ const Home = () => {
           }}>
           <Box
             sx={{
-              paddingLeft: 9,
+              //   paddingLeft: 9,
+              marginLeft: 9,
             }}>
-            {/* <img
-              src="/images/logo.png"
-              style={{
-                width: "25%",
-              }}></img> */}
-            <Link to="/" style={{textDecoration: "none", color: "black"}}>
+            <Link to="/" style={{ textDecoration: "none", color: "black" }}>
               <h1
                 style={{
                   fontFamily: "Wendy One, sans-serif",
@@ -69,13 +65,12 @@ const Home = () => {
           </Box>
           <Box
             sx={{
-              paddingRight: 9,
+              marginRight: 9,
               display: "flex",
               flexDirection: "row",
               justifyContent: "flex-end",
               alignItems: "center",
-
-              gap: "60px",
+              gap: "55px",
               fontFamily: "Lato, sans-serif",
               fontSize: "16px",
               fontWeight: "light",
@@ -84,19 +79,19 @@ const Home = () => {
               href="#about"
               style={{ textDecoration: "none", color: "#2c2c2c" }}
               className="hover-line-animation">
-              About
+              Home
             </a>
             <a
               href="#work"
               style={{ textDecoration: "none", color: "#2c2c2c" }}
               className="hover-line-animation">
-              Work
+              Resume
             </a>
             <a
               href="#"
               style={{ textDecoration: "none", color: "#2c2c2c" }}
               className="hover-line-animation">
-              Resume
+              Contact
             </a>
           </Box>
         </Box>
@@ -106,7 +101,7 @@ const Home = () => {
             display: "flex",
             justifyContent: "center",
             alignItems: "center",
-            marginTop: "8.5em",
+            marginTop: "7.6em",
           }}>
           <p
             style={{
@@ -114,22 +109,21 @@ const Home = () => {
               fontSize: "16px",
               lineHeight: "70px",
               textAlign: "left",
-              fontWeight: "bold",
             }}>
             Hello, I'm
             <br></br>
             <span
-              onMouseOver={handleMouseOver}
-              onMouseOut={handleMouseOut}
+              //   onMouseOver={handleMouseOver}
+              //   onMouseOut={handleMouseOut}
               className="color"
               style={{
                 fontFamily: "Wendy One, sans-serif",
-
+                fontWeight: "bold",
                 marginTop: "-16px",
               }}>
               ANGEL
             </span>
-            {isHovering && <Heading />}
+            {/* {isHovering && <Heading />} */}
           </p>
         </Box>
 
@@ -144,33 +138,144 @@ const Home = () => {
               fontFamily: "Lato, sans-serif",
               fontStyle: "italic",
               fontSize: "17px",
-              marginTop: "140px",
-              paddingRight: "65px",
+              marginTop: "145px",
+              marginRight: "4em",
               letterSpacing: "0.5px",
             }}>
             -a self-taught UI/UX designer
           </p>
         </Box>
 
-        <hr style={{ width: "90%", marginTop: "130px" }}></hr>
+        {/* <Box
+          sx={{
+            display: "flex",
+            flexDirection: "row",
+            justifyContent: "flex-end",
+            alignItems: "center",
+            marginTop: "100px",
+          }}>
+          <p
+            style={{
+              fontFamily: "Lato, sans-serif",
+              letterSpacing: "0.5px",
+                        fontSize: "14px",
+              marginRight: "9px"
+            }}>
+            FEATURED PROJECTS
+          </p>
+          <Box
+            style={{
+              width: "80%",
+              height: "1.4px",
+              backgroundColor: "black",
+            }}></Box>
+        </Box> */}
 
-        <Box sx={{ marginTop: "4.5em" }} id="work">
+        <hr style={{ width: "96%", marginTop: "115px" }}></hr>
+
+        <Box sx={{ marginTop: "8em" }}>
           <Box
             sx={{
               display: "flex",
+              flexDirection: "row",
+                        justifyContent: "space-evenly",
+              alignItems: "flex-start"
+            }}>
+            <Box
+              sx={{
+                            fontFamily: "Lato, sans-serif",
+                    
+              }}>
+              <p
+                style={{
+                  fontSize: "35px",   
+                  fontWeight: "bold",
+                }}>
+                Technixia
+              </p>
+              <p style={{ fontSize: "19px" }}>
+                Controlling your home devives is just - one click away.
+                        </p>
+                        <div style={{
+                            backgroundColor: "#f7f7f7", width: "100px", height: "30px", borderRadius: "16px",
+                        display: "flex", justifyContent: "center", alignItems: "center"
+                        }}>
+                            <p style={{fontSize: "14px", color: "#222222"}}>REDESIGN</p>
+                        </div>
+              <p
+                style={{
+                  fontSize: "17px",
+                  fontWeight: "bold",
+                  letterSpacing: "0.4px",
+                }}>
+                View Project
+                <img
+                  src="/images/greenarrow.png"
+                  style={{
+                    position: "absolute",
+                    width: "35px",
+                
+                  }}></img>
+              </p>
+            </Box>
+            <img
+              src="/images/technixia-page2.png"
+              style={{ width: "50%", borderRadius: "4px" }}></img>
+          </Box>
+
+          <Box
+            sx={{
+              display: "flex",
+              flexDirection: "row",
               justifyContent: "space-evenly",
+              marginTop: "9em",
+            }}>
+            <img
+              src="/images/wellnessZ-page.png"
+              style={{ width: "50%", borderRadius: "4px" }}></img>
+            <Box
+              sx={{
+                            fontFamily: "Lato, sans-serif",
+                  
+              }}>
+              <h1
+                style={{
+                  fontSize: "35px",
+                  letterSpacing: "1px",
+                  fontWeight: "700",
+                }}>
+                WellnessZ
+              </h1>
+              <p style={{ fontSize: "19px" }}>
+                Controlling your home devives is just - one click away.
+              </p>
+              <p
+                style={{
+                  fontSize: "17px",
+                  fontWeight: "bold",
+                  letterSpacing: "0.4px",
+                }}>
+                View Project
+                <img
+                  src="/images/greenarrow.png"
+                  style={{
+                    position: "absolute",
+                    width: "50px",
+                    marginTop: "-14px",
+                  }}></img>
+              </p>
+            </Box>
+          </Box>
+        </Box>
+
+        {/* <Box sx={{ marginTop: "4.5em" }} id="work">
+          <Box
+            sx={{
+              display: "flex",
+              justifyContent: "space-around",
               flexDirection: "row",
               alignItems: "center",
             }}>
-            {/* <img
-              src="/images/one.png"
-              style={{
-                position: "absolute",
-                width: "40px",
-                marginLeft: "-60.4em",
-                marginTop: "-35px",
-              }}></img> */}
-
             <Box
               sx={{
                 fontFamily: "Lato, sans-serif",
@@ -200,7 +305,7 @@ const Home = () => {
               sx={{
                 fontFamily: "Lato, sans-serif",
               }}>
-              <p style={{ fontSize: "22px" }}>
+              <p style={{ fontSize: "20px" }}>
                 Controlling your home devives is just - one click away.
               </p>
               <Link
@@ -232,15 +337,15 @@ const Home = () => {
             <img
               src="/images/technixia.png"
               style={{
-                width: "80%",
-                marginLeft: "7em",
+                width: "75%",
+                marginLeft: "10em",
               }}></img>
           </Box>
-        </Box>
+        </Box> */}
 
-        <hr style={{ width: "90%", marginTop: "80px" }}></hr>
+        {/* <hr style={{ width: "90%", marginTop: "80px" }}></hr> */}
 
-        <Box sx={{ marginTop: "4.5em" }}>
+        {/* <Box sx={{ marginTop: "4.5em" }}>
           <Box
             sx={{
               display: "flex",
@@ -248,14 +353,6 @@ const Home = () => {
               flexDirection: "row",
               alignItems: "center",
             }}>
-            {/* <img
-              src="/images/two.png"
-              style={{
-                position: "absolute",
-                width: "40px",
-                marginLeft: "-61.5em",
-                marginTop: "-35px",
-              }}></img> */}
             <Box
               sx={{
                 fontFamily: "Lato, sans-serif",
@@ -320,7 +417,7 @@ const Home = () => {
                 marginLeft: "7em",
               }}></img>
           </Box>
-        </Box>
+        </Box> */}
 
         <Box style={{ position: "relative" }} id="about">
           <Box>
@@ -330,7 +427,7 @@ const Home = () => {
                 width: "98.5vw",
                 height: "130vh",
                 marginLeft: "-8px",
-                marginTop: "20px",
+                marginTop: "100px",
               }}></img>
           </Box>
 

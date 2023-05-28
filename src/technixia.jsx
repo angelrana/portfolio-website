@@ -44,14 +44,14 @@ const Technixia = () => {
                 href="#about"
                 style={{ textDecoration: "none", color: "#2c2c2c" }}
                 className="hover-line-animation">
-                About
+                Home
               </a>
             </Link>
             <a
               href="#work"
               style={{ textDecoration: "none", color: "#2c2c2c" }}
               className="hover-line-animation">
-              Work
+              Contact
             </a>
             <a
               href="#"
