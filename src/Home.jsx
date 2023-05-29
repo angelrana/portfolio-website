@@ -76,19 +76,19 @@ const Home = () => {
               fontWeight: "light",
             }}>
             <a
-              href="#about"
+            
               style={{ textDecoration: "none", color: "#2c2c2c" }}
               className="hover-line-animation">
               Home
             </a>
             <a
-              href="#work"
+       
               style={{ textDecoration: "none", color: "#2c2c2c" }}
               className="hover-line-animation">
               Resume
             </a>
             <a
-              href="#"
+            
               style={{ textDecoration: "none", color: "#2c2c2c" }}
               className="hover-line-animation">
               Contact
@@ -178,93 +178,165 @@ const Home = () => {
             sx={{
               display: "flex",
               flexDirection: "row",
-                        justifyContent: "space-evenly",
-              alignItems: "flex-start"
+              justifyContent: "center",
+              gap: "60px",
             }}>
-            <Box
-              sx={{
-                            fontFamily: "Lato, sans-serif",
-                    
+            <div
+              style={{
+                fontFamily: "Lato, sans-serif",
+                width: "28em",
+                marginTop: "-40px",
               }}>
               <p
                 style={{
-                  fontSize: "35px",   
+                  fontSize: "40px",
                   fontWeight: "bold",
+                  color: "#222222",
                 }}>
                 Technixia
               </p>
-              <p style={{ fontSize: "19px" }}>
-                Controlling your home devives is just - one click away.
-                        </p>
-                        <div style={{
-                            backgroundColor: "#f7f7f7", width: "100px", height: "30px", borderRadius: "16px",
-                        display: "flex", justifyContent: "center", alignItems: "center"
-                        }}>
-                            <p style={{fontSize: "14px", color: "#222222"}}>REDESIGN</p>
-                        </div>
               <p
                 style={{
-                  fontSize: "17px",
-                  fontWeight: "bold",
-                  letterSpacing: "0.4px",
+                  fontSize: "18px",
+                  color: "#909090",
+                  lineHeight: "35px",
+                  marginTop: "-30px",
+                  letterSpacing: "0.3px",
+                  fontWeight: "lighter",
                 }}>
-                View Project
-                <img
-                  src="/images/greenarrow.png"
-                  style={{
-                    position: "absolute",
-                    width: "35px",
-                
-                  }}></img>
+                Technixia wanted the their users to be able to control their
+                home devices through mobile app, leading to less hassle
               </p>
-            </Box>
+
+              <div
+                style={{
+                  backgroundColor: "#f7f7f7",
+                  width: "110px",
+                  height: "30px",
+                  borderRadius: "16px",
+                  display: "flex",
+                  justifyContent: "center",
+                  alignItems: "center",
+                }}>
+                <p
+                  style={{
+                    fontSize: "14px",
+                    color: "#353535",
+                    letterSpacing: "0.3px",
+                  }}>
+                  Redesign
+                </p>
+              </div>
+              <Link to="/technixia" style={{textDecoration: "none", color: "#353535"}}>
+                <div
+                  style={{
+                    display: "flex",
+                    flexDirection: "row",
+                    alignItems: "center",
+                  }}>
+                  <h4
+                    style={{
+                      fontSize: "16px",
+
+                      letterSpacing: "0.4px",
+                      marginTop: "30px",
+                    }}>
+                    View Project
+                  </h4>
+                  <img
+                    src="/images/greenarrow.png"
+                    style={{
+                      width: "40px",
+                      marginTop: "10px",
+                    }}></img>
+                </div>
+             
+              </Link>
+            </div>
+
             <img
               src="/images/technixia-page2.png"
-              style={{ width: "50%", borderRadius: "4px" }}></img>
+              style={{
+                width: "50%",
+                borderRadius: "4px",
+              }}></img>
           </Box>
 
           <Box
             sx={{
               display: "flex",
               flexDirection: "row",
-              justifyContent: "space-evenly",
-              marginTop: "9em",
+              justifyContent: "center",
+              gap: "90px",
+              marginTop: "200px",
             }}>
-            <img
-              src="/images/wellnessZ-page.png"
-              style={{ width: "50%", borderRadius: "4px" }}></img>
-            <Box
-              sx={{
-                            fontFamily: "Lato, sans-serif",
-                  
+            <div
+              style={{
+                fontFamily: "Lato, sans-serif",
+                width: "25em",
               }}>
-              <h1
+              <p
                 style={{
-                  fontSize: "35px",
-                  letterSpacing: "1px",
-                  fontWeight: "700",
+                  fontSize: "40px",
+                  fontWeight: "bold",
                 }}>
                 WellnessZ
-              </h1>
-              <p style={{ fontSize: "19px" }}>
-                Controlling your home devives is just - one click away.
               </p>
               <p
                 style={{
-                  fontSize: "17px",
-                  fontWeight: "bold",
-                  letterSpacing: "0.4px",
+                  fontSize: "20px",
+                  fontWeight: "lighter",
+                  color: "#909090",
+                  lineHeight: "35px",
+                  marginTop: "-30px",
+                  letterSpacing: "0.3px",
                 }}>
-                View Project
+                Technixia wanted the their users to be able to control their
+                home devices through mobile app, leading to less hassle
+              </p>
+
+              <div
+                style={{
+                  backgroundColor: "#f7f7f7",
+                  width: "100px",
+                  height: "34px",
+                  borderRadius: "16px",
+                  display: "flex",
+                  justifyContent: "center",
+                  alignItems: "center",
+                }}>
+                <p style={{ fontSize: "14px", color: "#222222" }}>UI/UX</p>
+              </div>
+              <div
+                style={{
+                  display: "flex",
+                  flexDirection: "row",
+                  alignItems: "center",
+                }}>
+                <p
+                  style={{
+                    fontSize: "17px",
+                    fontWeight: "bold",
+                    letterSpacing: "0.4px",
+                    marginTop: "30px",
+                  }}>
+                  View Project
+                </p>
                 <img
                   src="/images/greenarrow.png"
                   style={{
-                    position: "absolute",
-                    width: "50px",
-                    marginTop: "-14px",
+                    width: "40px",
+                    marginTop: "12px",
                   }}></img>
-              </p>
-            </Box>
+              </div>
+            </div>
+
+            <img
+              src="/images/wellnessZ-page.png"
+              style={{
+                width: "50%",
+                borderRadius: "4px",
+              }}></img>
           </Box>
         </Box>
 

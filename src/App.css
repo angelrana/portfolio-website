@@ -52,3 +52,7 @@ z-index: 0;
 html {
     scroll-behavior: smooth;
 }
+
+.role{
+  border-style: 1px solid black;
+}
