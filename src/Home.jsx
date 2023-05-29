@@ -76,19 +76,16 @@ const Home = () => {
               fontWeight: "light",
             }}>
             <a
-            
               style={{ textDecoration: "none", color: "#2c2c2c" }}
               className="hover-line-animation">
               Home
             </a>
             <a
-       
               style={{ textDecoration: "none", color: "#2c2c2c" }}
               className="hover-line-animation">
               Resume
             </a>
             <a
-            
               style={{ textDecoration: "none", color: "#2c2c2c" }}
               className="hover-line-animation">
               Contact
@@ -146,7 +143,6 @@ const Home = () => {
           </p>
         </Box>
 
-
         <hr style={{ width: "96%", marginTop: "115px" }}></hr>
 
         <Box sx={{ marginTop: "8em" }}>
@@ -203,7 +199,9 @@ const Home = () => {
                   Redesign
                 </p>
               </div>
-              <Link to="/technixia" style={{textDecoration: "none", color: "#353535"}}>
+              <Link
+                to="/technixia"
+                style={{ textDecoration: "none", color: "#353535" }}>
                 <div
                   style={{
                     display: "flex",
@@ -226,7 +224,6 @@ const Home = () => {
                       marginTop: "10px",
                     }}></img>
                 </div>
-             
               </Link>
             </div>
 
@@ -243,68 +240,80 @@ const Home = () => {
               display: "flex",
               flexDirection: "row",
               justifyContent: "center",
-              gap: "90px",
-              marginTop: "200px",
+                        gap: "60px",
+              marginTop: "170px"
             }}>
             <div
               style={{
                 fontFamily: "Lato, sans-serif",
-                width: "25em",
+                width: "26em",
+                marginTop: "-40px",
               }}>
               <p
                 style={{
                   fontSize: "40px",
                   fontWeight: "bold",
+                  color: "#222222",
                 }}>
                 WellnessZ
               </p>
               <p
                 style={{
-                  fontSize: "20px",
-                  fontWeight: "lighter",
+                  fontSize: "18px",
                   color: "#909090",
                   lineHeight: "35px",
                   marginTop: "-30px",
                   letterSpacing: "0.3px",
+                  fontWeight: "lighter",
                 }}>
-                Technixia wanted the their users to be able to control their
-                home devices through mobile app, leading to less hassle
+                "Helping wellness coaches to keep the world healthy and happier"
               </p>
 
               <div
                 style={{
                   backgroundColor: "#f7f7f7",
-                  width: "100px",
-                  height: "34px",
+                  width: "110px",
+                  height: "30px",
                   borderRadius: "16px",
                   display: "flex",
                   justifyContent: "center",
                   alignItems: "center",
                 }}>
-                <p style={{ fontSize: "14px", color: "#222222" }}>UI/UX</p>
-              </div>
-              <div
-                style={{
-                  display: "flex",
-                  flexDirection: "row",
-                  alignItems: "center",
-                }}>
                 <p
                   style={{
-                    fontSize: "17px",
-                    fontWeight: "bold",
-                    letterSpacing: "0.4px",
-                    marginTop: "30px",
+                    fontSize: "14px",
+                    color: "#353535",
+                    letterSpacing: "0.3px",
                   }}>
-                  View Project
+                  UI/UX
                 </p>
-                <img
-                  src="/images/greenarrow.png"
-                  style={{
-                    width: "40px",
-                    marginTop: "12px",
-                  }}></img>
               </div>
+              <Link
+                to="/wellnessZ"
+                style={{ textDecoration: "none", color: "#353535" }}>
+                <div
+                  style={{
+                    display: "flex",
+                    flexDirection: "row",
+                    alignItems: "center",
+                  }}>
+                  <h4
+                    style={{
+                      fontSize: "16px",
+
+                      letterSpacing: "0.4px",
+                      marginTop: "30px",
+                    }}>
+                    View Project
+                  </h4>
+                  <img
+                    src="/images/greenarrow.png"
+                    style={{
+                      width: "40px",
+                      marginTop: "10px",
+                    }}></img>
+                </div>
+              </Link>
             </div>
 
             <img

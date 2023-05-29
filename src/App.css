@@ -1,3 +1,6 @@
+html, body{margin:0px; padding:0px;}
+
+
 .color {
   background: -webkit-linear-gradient(25deg, #008080 30%, rgba(0, 80, 80) 40%);
   -webkit-background-clip: text;

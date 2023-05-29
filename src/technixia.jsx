@@ -175,7 +175,7 @@ const Technixia = () => {
           style={{
             width: "86%",
             fontFamily: "Lato, sans-serif",
-            marginLeft: "6em",
+            marginLeft: "4em",
             fontSize: "18px",
             letterSpacing: "0.5px",
             lineHeight: "35px",
@@ -183,9 +183,61 @@ const Technixia = () => {
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae
           explicabo esse ex tenetur rerum sunt assumenda dolorem, debitis fugit
           reiciendis. Rem, repellat sint quasi modi maxime harum debitis amet
-                reprehenderit?
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque reprehenderit odio, eveniet unde ipsum ea aliquid commodi exercitationem accusantium aspernatur, perferendis deleniti similique nobis ipsam mollitia sequi, quod quia. Suscipit.
+          reprehenderit? Lorem ipsum dolor sit amet consectetur adipisicing
+          elit. Neque reprehenderit odio, eveniet unde ipsum ea aliquid commodi
+          exercitationem accusantium aspernatur, perferendis deleniti similique
+          nobis ipsam mollitia sequi, quod quia. Suscipit.
         </p>
+
+        <Box
+          sx={{
+            backgroundColor: "#fbe62a",
+
+            marginTop: "60px",
+          }}>
+          <Box
+            sx={{
+              display: "flex",
+              flexDirection: "row",
+              justifyContent: "flex-start",
+              alignItems: "center",
+              marginTop: "80px",
+              marginLeft: "70px",
+            }}>
+            <Box
+              style={{
+                width: "5%",
+                height: "1.4px",
+                backgroundColor: "#222222",
+              }}></Box>
+            <p
+              style={{
+                fontFamily: "Lato, sans-serif",
+                letterSpacing: "0.5px",
+                fontSize: "14px",
+                marginLeft: "10px",
+              }}>
+              PROBLEM
+            </p>
+          </Box>
+          <p
+            style={{
+              width: "86%",
+              fontFamily: "Lato, sans-serif",
+              marginLeft: "4em",
+              fontSize: "18px",
+              letterSpacing: "0.5px",
+              lineHeight: "35px",
+            }}>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae
+            explicabo esse ex tenetur rerum sunt assumenda dolorem, debitis
+            fugit reiciendis. Rem, repellat sint quasi modi maxime harum debitis
+            amet reprehenderit? Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Neque reprehenderit odio, eveniet unde ipsum ea
+            aliquid commodi exercitationem accusantium aspernatur, perferendis
+            deleniti similique nobis ipsam mollitia sequi, quod quia. Suscipit.
+          </p>
+        </Box>
       </Box>
     );
 }
