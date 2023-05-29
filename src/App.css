@@ -54,5 +54,8 @@ html {
 }
 
 .role{
-  border-style: 1px solid black;
+  border-color:#b3b3b3;
+  border-style: solid;
+  border-width: 1.5px;
+  border-radius: 3px;
 }

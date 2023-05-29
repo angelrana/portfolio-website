@@ -3,9 +3,9 @@ import { Box } from '@mui/material';
 import { Link } from 'react-router-dom';
 
 const Technixia = () => {
+
     return (
-        <Box>
-     
+      <Box>
         <Box
           sx={{
             flexGrow: 1,
@@ -59,67 +59,133 @@ const Technixia = () => {
               Contact
             </a>
           </Box>
-            </Box>
+        </Box>
 
-
-          <Box
-            sx={{
-              display: "flex",
-              flexDirection: "row",
-              justifyContent: "center",
-                    gap: "60px",
-            marginTop: "30px"
+        <Box
+          sx={{
+            display: "flex",
+            flexDirection: "row",
+            justifyContent: "center",
+            gap: "60px",
+            marginTop: "50px",
+          }}>
+          <div
+            style={{
+              fontFamily: "Lato, sans-serif",
+              width: "26em",
+              marginTop: "-40px",
             }}>
-            <div
+            <p
               style={{
-                fontFamily: "Lato, sans-serif",
-                width: "28em",
-                marginTop: "-40px",
+                fontSize: "40px",
+                fontWeight: "bold",
+                color: "#222222",
               }}>
-              <p
-                style={{
-                  fontSize: "40px",
-                  fontWeight: "bold",
-                  color: "#222222",
-                }}>
-                Technixia
-              </p>
-              <p
-                style={{
-                  fontSize: "18px",
-                  color: "#909090",
-                  lineHeight: "35px",
-                  marginTop: "-30px",
-                  letterSpacing: "0.3px",
-                  fontWeight: "lighter",
-                }}>
-                Technixia wanted the their users to be able to control their
-                home devices through mobile app, leading to less hassle
-              </p>
-            
-            </div>
-
-            <img
-              src="/images/technixia-page2.png"
+              Technixia
+            </p>
+            <p
               style={{
-                width: "50%",
-                borderRadius: "4px",
-              }}></img>
-            </Box>
-            
-            <Box className="role" style={{
-                width: "60%", height: "30%",
-         display: "flex", justifyContent: "space-evenly", alignItems: "center", backgroundColor: "white"
-            }}>
-                <div>
-                    <p>Role</p>
-                </div>
-                <div>
-                    Team
-                </div>
-                <div>Duration</div>
-            </Box>
+                fontSize: "18px",
+                color: "#909090",
+                lineHeight: "35px",
+                marginTop: "-30px",
+                letterSpacing: "0.3px",
+                fontWeight: "lighter",
+              }}>
+              Technixia wanted the their users to be able to control their home
+              devices through mobile app, leading to less hassle
+            </p>
+          </div>
 
+          <img
+            src="/images/technixia-page2.png"
+            style={{
+              width: "50%",
+              borderRadius: "4px",
+            }}></img>
+        </Box>
+        <Box
+          className="role"
+          style={{
+            width: "82%",
+            height: "50%",
+            marginLeft: "66px",
+            marginTop: "10em",
+            display: "flex",
+            justifyContent: "space-around",
+            alignItems: "center",
+            fontFamily: "Lato, sans-serif",
+            padding: "40px",
+          }}>
+          <div>
+            <p
+              style={{
+                fontWeight: "bold",
+              }}>
+              ROLE
+            </p>
+            <p>UI/UX designer (Internship)</p>
+          </div>
+          <div>
+            <p
+              style={{
+                fontWeight: "bold",
+              }}>
+              TEAM
+            </p>
+            <p>Angel Thapa (solo)</p>
+          </div>
+          <div>
+            <p
+              style={{
+                fontWeight: "bold",
+              }}>
+              DURATION
+            </p>
+            <p>1 month</p>
+          </div>
+        </Box>
+
+        <Box
+          sx={{
+            display: "flex",
+            flexDirection: "row",
+            justifyContent: "flex-start",
+            alignItems: "center",
+            marginTop: "80px",
+            marginLeft: "70px",
+          }}>
+          <Box
+            style={{
+              width: "5%",
+              height: "1.4px",
+              backgroundColor: "#222222",
+            }}></Box>
+          <p
+            style={{
+              fontFamily: "Lato, sans-serif",
+              letterSpacing: "0.5px",
+              fontSize: "14px",
+              marginLeft: "10px",
+            }}>
+            OVERVIEW
+          </p>
+        </Box>
+        <p
+          style={{
+            width: "86%",
+            fontFamily: "Lato, sans-serif",
+            marginLeft: "6em",
+            fontSize: "18px",
+            letterSpacing: "0.5px",
+            lineHeight: "35px",
+          }}>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae
+          explicabo esse ex tenetur rerum sunt assumenda dolorem, debitis fugit
+          reiciendis. Rem, repellat sint quasi modi maxime harum debitis amet
+                reprehenderit?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque reprehenderit odio, eveniet unde ipsum ea aliquid commodi exercitationem accusantium aspernatur, perferendis deleniti similique nobis ipsam mollitia sequi, quod quia. Suscipit.
+        </p>
       </Box>
     );
 }

@@ -139,37 +139,13 @@ const Home = () => {
               fontStyle: "italic",
               fontSize: "17px",
               marginTop: "145px",
-              marginRight: "4em",
+              marginRight: "4.1em",
               letterSpacing: "0.5px",
             }}>
             -a self-taught UI/UX designer
           </p>
         </Box>
 
-        {/* <Box
-          sx={{
-            display: "flex",
-            flexDirection: "row",
-            justifyContent: "flex-end",
-            alignItems: "center",
-            marginTop: "100px",
-          }}>
-          <p
-            style={{
-              fontFamily: "Lato, sans-serif",
-              letterSpacing: "0.5px",
-                        fontSize: "14px",
-              marginRight: "9px"
-            }}>
-            FEATURED PROJECTS
-          </p>
-          <Box
-            style={{
-              width: "80%",
-              height: "1.4px",
-              backgroundColor: "black",
-            }}></Box>
-        </Box> */}
 
         <hr style={{ width: "96%", marginTop: "115px" }}></hr>
 
@@ -184,7 +160,7 @@ const Home = () => {
             <div
               style={{
                 fontFamily: "Lato, sans-serif",
-                width: "28em",
+                width: "26em",
                 marginTop: "-40px",
               }}>
               <p
