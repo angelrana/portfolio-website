@@ -288,6 +288,31 @@ const Technixia = () => {
               borderRadius: "4px",
             }}></img>
         </Box>
+        <Box
+          sx={{
+            display: "flex",
+            flexDirection: "row",
+            justifyContent: "flex-start",
+            alignItems: "center",
+            marginTop: "80px",
+            marginLeft: "70px",
+          }}>
+          <Box
+            style={{
+              width: "5%",
+              height: "1.4px",
+              backgroundColor: "#222222",
+            }}></Box>
+          <p
+            style={{
+              fontFamily: "Lato, sans-serif",
+              letterSpacing: "0.5px",
+              fontSize: "14px",
+              marginLeft: "10px",
+            }}>
+         WHY'S AND WHY NOT
+          </p>
+        </Box>
       </Box>
     );
 }
