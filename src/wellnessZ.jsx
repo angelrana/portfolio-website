@@ -201,6 +201,7 @@ const WellnessZ = () => {
             alignItems: "center",
             marginTop: "80px",
             marginLeft: "70px",
+            paddingTop: "40px",
           }}>
           <Box
             style={{
@@ -225,7 +226,8 @@ const WellnessZ = () => {
             marginLeft: "4em",
             fontSize: "18px",
             letterSpacing: "0.5px",
-            lineHeight: "35px",
+                      lineHeight: "35px",
+            paddingBottom: "50px"
           }}>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae
           explicabo esse ex tenetur rerum sunt assumenda dolorem, debitis fugit

@@ -203,6 +203,7 @@ const Technixia = () => {
               alignItems: "center",
               marginTop: "80px",
               marginLeft: "70px",
+              paddingTop: "40px",
             }}>
             <Box
               style={{
@@ -228,6 +229,7 @@ const Technixia = () => {
               fontSize: "18px",
               letterSpacing: "0.5px",
               lineHeight: "35px",
+              paddingBottom: "50px",
             }}>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae
             explicabo esse ex tenetur rerum sunt assumenda dolorem, debitis
@@ -237,6 +239,54 @@ const Technixia = () => {
             aliquid commodi exercitationem accusantium aspernatur, perferendis
             deleniti similique nobis ipsam mollitia sequi, quod quia. Suscipit.
           </p>
+        </Box>
+        <Box
+          sx={{
+            display: "flex",
+            flexDirection: "row",
+            justifyContent: "flex-start",
+            alignItems: "center",
+            marginTop: "80px",
+            marginLeft: "70px",
+          }}>
+          <Box
+            style={{
+              width: "5%",
+              height: "1.4px",
+              backgroundColor: "#222222",
+            }}></Box>
+          <p
+            style={{
+              fontFamily: "Lato, sans-serif",
+              letterSpacing: "0.5px",
+              fontSize: "14px",
+              marginLeft: "10px",
+            }}>
+            COMPARISION
+          </p>
+        </Box>
+
+        <Box
+          sx={{
+            display: "flex",
+            flexDirection: "row",
+            justifyContent: "center",
+            gap: "10px",
+            marginTop: "50px",
+          }}>
+          <img
+            src="/images/tech-compare.png"
+            style={{
+              width: "48%",
+              borderRadius: "4px",
+            }}></img>
+
+          <img
+            src="/images/tech-compare2.png"
+            style={{
+              width: "48%",
+              borderRadius: "4px",
+            }}></img>
         </Box>
       </Box>
     );
