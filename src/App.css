@@ -57,8 +57,19 @@ html {
 }
 
 .role{
-  border-color:#b3b3b3;
+  border-color:#c5c5c5;
   border-style: solid;
-  border-width: 1.5px;
+  border-width: 1px;
   border-radius: 3px;
+}
+
+.prototype {
+  width: 200px;
+    border-color:#FFC225;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 3px;
+  text-align: center;
+  color: #FFC225;
+
 }

@@ -175,9 +175,9 @@ const Home = () => {
                   marginTop: "-30px",
                   letterSpacing: "0.3px",
                   fontWeight: "lighter",
+                  
                 }}>
-                Technixia wanted the their users to be able to control their
-                home devices through mobile app, leading to less hassle
+                “Technixia ready to become a part of your life”
               </p>
 
               <div
@@ -240,8 +240,8 @@ const Home = () => {
               display: "flex",
               flexDirection: "row",
               justifyContent: "center",
-                        gap: "60px",
-              marginTop: "170px"
+              gap: "60px",
+              marginTop: "170px",
             }}>
             <div
               style={{
@@ -323,250 +323,96 @@ const Home = () => {
                 borderRadius: "4px",
               }}></img>
           </Box>
-            </Box>
-            
+        </Box>
 
-                <Box
-            sx={{
-              display: "flex",
-              flexDirection: "row",
-              justifyContent: "center",
-                        gap: "60px",
-              marginTop: "170px"
+        <Box
+          sx={{
+            display: "flex",
+            flexDirection: "row",
+            justifyContent: "center",
+            gap: "60px",
+            marginTop: "170px",
+          }}>
+          <div
+            style={{
+              fontFamily: "Lato, sans-serif",
+              width: "26em",
+              marginTop: "-40px",
             }}>
+            <p
+              style={{
+                fontSize: "40px",
+                fontWeight: "bold",
+                color: "#222222",
+              }}>
+              SocioHood
+            </p>
+            <p
+              style={{
+                fontSize: "18px",
+                color: "#909090",
+                lineHeight: "35px",
+                marginTop: "-30px",
+                letterSpacing: "0.3px",
+                fontWeight: "lighter",
+              }}>
+              "Helping wellness coaches to keep the world healthy and happier"
+            </p>
+
             <div
               style={{
-                fontFamily: "Lato, sans-serif",
-                width: "26em",
-                marginTop: "-40px",
+                backgroundColor: "#f7f7f7",
+                width: "110px",
+                height: "30px",
+                borderRadius: "16px",
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
               }}>
               <p
                 style={{
-                  fontSize: "40px",
-                  fontWeight: "bold",
-                  color: "#222222",
-                }}>
-                SocioHood
-              </p>
-              <p
-                style={{
-                  fontSize: "18px",
-                  color: "#909090",
-                  lineHeight: "35px",
-                  marginTop: "-30px",
+                  fontSize: "14px",
+                  color: "#353535",
                   letterSpacing: "0.3px",
-                  fontWeight: "lighter",
                 }}>
-                "Helping wellness coaches to keep the world healthy and happier"
+                Case Study
               </p>
-
+            </div>
+            <Link
+              to="/wellnessZ"
+              style={{ textDecoration: "none", color: "#353535" }}>
               <div
                 style={{
-                  backgroundColor: "#f7f7f7",
-                  width: "110px",
-                  height: "30px",
-                  borderRadius: "16px",
                   display: "flex",
-                  justifyContent: "center",
+                  flexDirection: "row",
                   alignItems: "center",
                 }}>
-                <p
+                <h4
                   style={{
-                    fontSize: "14px",
-                    color: "#353535",
-                    letterSpacing: "0.3px",
+                    fontSize: "16px",
+
+                    letterSpacing: "0.4px",
+                    marginTop: "30px",
                   }}>
-               Case Study
-                </p>
+                  View Project
+                </h4>
+                <img
+                  src="/images/greenarrow.png"
+                  style={{
+                    width: "40px",
+                    marginTop: "10px",
+                  }}></img>
               </div>
-              <Link
-                to="/wellnessZ"
-                style={{ textDecoration: "none", color: "#353535" }}>
-                <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "row",
-                    alignItems: "center",
-                  }}>
-                  <h4
-                    style={{
-                      fontSize: "16px",
+            </Link>
+          </div>
 
-                      letterSpacing: "0.4px",
-                      marginTop: "30px",
-                    }}>
-                    View Project
-                  </h4>
-                  <img
-                    src="/images/greenarrow.png"
-                    style={{
-                      width: "40px",
-                      marginTop: "10px",
-                    }}></img>
-                </div>
-              </Link>
-            </div>
-
-            <img
-              src="/images/wellnessZ-page.png"
-              style={{
-                width: "50%",
-                borderRadius: "4px",
-              }}></img>
-          </Box>
-
-
-
-        {/* <Box sx={{ marginTop: "4.5em" }} id="work">
-          <Box
-            sx={{
-              display: "flex",
-              justifyContent: "space-around",
-              flexDirection: "row",
-              alignItems: "center",
-            }}>
-            <Box
-              sx={{
-                fontFamily: "Lato, sans-serif",
-              }}>
-              <h1
-                style={{
-                  fontSize: "42px",
-                  letterSpacing: "1px",
-                  fontWeight: "700",
-                }}>
-                Technixia
-              </h1>
-
-              <p
-                style={{
-                  fontSize: "15px",
-                  letterSpacing: "1px",
-                  color: "#909090",
-                  position: "relative",
-                  left: "5px",
-                  top: "-10px",
-                }}>
-                MARKETING APP REDESIGN
-              </p>
-            </Box>
-            <Box
-              sx={{
-                fontFamily: "Lato, sans-serif",
-              }}>
-              <p style={{ fontSize: "20px" }}>
-                Controlling your home devives is just - one click away.
-              </p>
-              <Link
-                to="/technixia"
-                style={{
-                  textDecoration: "none",
-                  color: "black",
-                }}>
-                <p
-                  style={{
-                    fontSize: "19px",
-                    fontWeight: "bold",
-                    letterSpacing: "0.4px",
-                  }}>
-                  View Project
-                  <img
-                    src="/images/greenarrow.png"
-                    style={{
-                      position: "absolute",
-                      width: "50px",
-                      marginTop: "-14px",
-                    }}></img>
-                </p>
-              </Link>
-            </Box>
-          </Box>
-
-          <Box>
-            <img
-              src="/images/technixia.png"
-              style={{
-                width: "75%",
-                marginLeft: "10em",
-              }}></img>
-          </Box>
-        </Box> */}
-
-        {/* <hr style={{ width: "90%", marginTop: "80px" }}></hr> */}
-
-        {/* <Box sx={{ marginTop: "4.5em" }}>
-          <Box
-            sx={{
-              display: "flex",
-              justifyContent: "space-evenly",
-              flexDirection: "row",
-              alignItems: "center",
-            }}>
-            <Box
-              sx={{
-                fontFamily: "Lato, sans-serif",
-              }}>
-              <h1
-                style={{
-                  fontSize: "42px",
-                  letterSpacing: "1px",
-                  fontWeight: "700",
-                }}>
-                WellnessZ
-              </h1>
-              <p
-                style={{
-                  fontSize: "15px",
-                  letterSpacing: "1px",
-                  color: "#909090",
-                  position: "relative",
-                  left: "5px",
-                  top: "-10px",
-                }}>
-                FITNESS WEBSITE DESIGN
-              </p>
-            </Box>
-            <Box
-              sx={{
-                fontFamily: "Lato, sans-serif",
-              }}>
-              <p style={{ fontSize: "22px" }}>
-                Controlling your home devives is just - one click away.
-              </p>
-
-              <Link
-                to="/wellnessZ"
-                style={{
-                  textDecoration: "none",
-                  color: "black",
-                }}>
-                <p
-                  style={{
-                    fontSize: "19px",
-                    fontWeight: "bold",
-                    letterSpacing: "0.4px",
-                  }}>
-                  View Project
-                  <img
-                    src="/images/greenarrow.png"
-                    style={{
-                      position: "absolute",
-                      width: "50px",
-                      marginTop: "-14px",
-                    }}></img>
-                </p>
-              </Link>
-            </Box>
-          </Box>
-          <Box>
-            <img
-              src="/images/wellnessZ.png"
-              style={{
-                width: "80%",
-                marginLeft: "7em",
-              }}></img>
-          </Box>
-        </Box> */}
+          <img
+            src="/images/wellnessZ-page.png"
+            style={{
+              width: "50%",
+              borderRadius: "4px",
+            }}></img>
+        </Box>
 
         <Box style={{ position: "relative" }} id="about">
           <Box>
