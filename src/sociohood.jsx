@@ -2,7 +2,7 @@ import React from 'react';
 import { Box } from '@mui/material';
 import { Link } from 'react-router-dom';
 
-const WellnessZ = () => {
+const Sociohood = () => {
   return (
     <Box>
       <Box
@@ -80,7 +80,7 @@ const WellnessZ = () => {
               fontWeight: "bold",
               color: "#222222",
             }}>
-            WellnessZ
+            SocioHood Technologies
           </p>
           <p
             style={{
@@ -95,7 +95,7 @@ const WellnessZ = () => {
             WellnessZ focuses on helping the fitness coaches keep track of their
             client progress, through multiple features provided by us.
           </p>
-          <div className="prototype2">
+          <div className="prototype3">
             <Link
               style={{ textDecoration: "none", color: "inherit" }}
               target="_blank"
@@ -106,7 +106,7 @@ const WellnessZ = () => {
         </div>
 
         <img
-          src="/images/wellnessZ-page.png"
+          src="/images/Messages.png"
           style={{
             width: "50%",
             borderRadius: "4px",
@@ -133,7 +133,7 @@ const WellnessZ = () => {
             }}>
             ROLE
           </p>
-          <p>UI/UX designer (freelance)</p>
+          <p>UI/UX designer (Internship)</p>
         </div>
         <div>
           <p
@@ -151,7 +151,7 @@ const WellnessZ = () => {
             }}>
             DURATION
           </p>
-          <p>March 2023(1 month)</p>
+          <p>April 2023(1 month)</p>
         </div>
       </Box>
 
@@ -241,9 +241,10 @@ const WellnessZ = () => {
             paddingBottom: "50px",
             wordSpacing: "3px",
           }}>
-                  Helping the fitness coaches, nutritionis to make their work simpler. We wanted to allow the 
-                  fitness trainers to keep track and records of their client progress without much hassle. So our mission 
-                  was to make a app version of pen-n-paper work but in a better way.
+          Helping the fitness coaches, nutritionis to make their work simpler.
+          We wanted to allow the fitness trainers to keep track and records of
+          their client progress without much hassle. So our mission was to make
+          a app version of pen-n-paper work but in a better way.
         </p>
       </Box>
       <Box
@@ -338,4 +339,4 @@ const WellnessZ = () => {
   );
 }
 
-export default WellnessZ
+export default Sociohood

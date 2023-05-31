@@ -99,11 +99,13 @@ const Technixia = () => {
               of many businesses throughout their digital transformation
               journey.
             </p>
-            <div
-              className="prototype"
-             >
-              <p>Try Prototype</p>
-            </div>
+                
+                        <div className="prototype" style={{textDecoration: "none"}}>
+                            <Link style={{textDecoration: "none", color: "inherit"}} target="_blank" to="https://www.figma.com/proto/BLkO2XCFEiTQbqpZA7XEU4/The-Technixia?page-id=0%3A1&type=design&node-id=7-2&viewport=-68%2C131%2C0.08&scaling=scale-down&starting-point-node-id=7%3A2&show-proto-sidebar=1">
+                <p>Try Prototype</p>
+                            </Link>
+              </div>
+          
           </div>
 
           <img
@@ -119,7 +121,7 @@ const Technixia = () => {
             width: "87.6%",
             height: "50%",
             marginLeft: "74px",
-            marginTop: "7em",
+            marginTop: "8em",
             display: "flex",
             justifyContent: "space-around",
             alignItems: "center",
@@ -162,7 +164,7 @@ const Technixia = () => {
             flexDirection: "row",
             justifyContent: "flex-start",
             alignItems: "center",
-            marginTop: "80px",
+            marginTop: "85px",
             marginLeft: "74px",
           }}>
           <Box
@@ -209,7 +211,7 @@ const Technixia = () => {
           sx={{
             backgroundColor: "#fbe62a",
 
-            marginTop: "60px",
+            marginTop: "85px",
           }}>
           <Box
             sx={{
@@ -219,7 +221,7 @@ const Technixia = () => {
               alignItems: "center",
               marginTop: "80px",
               marginLeft: "74px",
-              paddingTop: "40px",
+              paddingTop: "50px",
             }}>
             <Box
               style={{
@@ -245,7 +247,7 @@ const Technixia = () => {
               fontSize: "18px",
               letterSpacing: "0.5px",
               lineHeight: "35px",
-              paddingBottom: "50px",
+              paddingBottom: "60px",
               wordSpacing: "3px",
             }}>
             All-in-one solution was lacking. After going through the previous
@@ -254,9 +256,10 @@ const Technixia = () => {
             provided in the app, the user's did'nt seem to understand it
             properly cause of the way it was designed. When Suruchi Gagan(who
             guided me in this Internship), told me about how "3-click-step" is
-            important for the user when designing anything, it made a lot of
-            sense. So as a UI/UX designer I wanted the user's journey to be as
-            simple as possible, while keeping in mind about the design flow.
+            important for the user when designing anything, it made me think
+            deeper through the user's perspective. So as a UI/UX designer I
+            wanted the user's journey to be as simple as possible, while keeping
+            in mind about the design flow.
           </p>
         </Box>
         <Box
@@ -265,7 +268,7 @@ const Technixia = () => {
             flexDirection: "row",
             justifyContent: "flex-start",
             alignItems: "center",
-            marginTop: "80px",
+            marginTop: "85px",
             marginLeft: "74px",
           }}>
           <Box
@@ -344,7 +347,19 @@ const Technixia = () => {
               paddingBottom: "50px",
               wordSpacing: "3px",
             }}>
-            <li>hekko</li>
+            <li>
+              The user has an option to maintain devices which is designated to
+              particular place, for eg: home, office etc
+            </li>
+            <li>
+              The add button allows the user to add device right away, either
+              with scanning or choosing the device shown in the app.
+            </li>
+            <li>
+              When clicked or long pressed on the device box, it leads them to
+              explore more options- as in adding to the scenes, favourites and
+              scheduling it, making their one-way route easier.
+            </li>
           </ul>
         </div>
       </Box>

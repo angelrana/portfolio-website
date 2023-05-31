@@ -383,7 +383,7 @@ const Home = () => {
               </p>
             </div>
             <Link
-              to="/wellnessZ"
+              to="/sociohood"
               style={{ textDecoration: "none", color: "#353535" }}>
               <div
                 style={{
@@ -425,7 +425,7 @@ const Home = () => {
               style={{
                 width: "98.5vw",
                 height: "115vh",
-                marginLeft: "-8px",
+            
                 marginTop: "100px",
               }}></img>
           </Box>
@@ -434,7 +434,7 @@ const Home = () => {
             sx={{
               position: "absolute",
               display: "flex",
-              top: "17.5em",
+              top: "18em",
               left: "3em",
             }}>
             <Box>
