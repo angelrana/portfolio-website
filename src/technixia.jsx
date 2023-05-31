@@ -152,7 +152,7 @@ const Technixia = () => {
               }}>
               DURATION
             </p>
-            <p>1 month</p>
+            <p>May 2023 (1 month)</p>
           </div>
         </Box>
 
@@ -291,7 +291,7 @@ const Technixia = () => {
             flexDirection: "row",
             justifyContent: "center",
             gap: "10px",
-            marginTop: "50px",
+            marginTop: "20px",
           }}>
           <img
             src="/images/tech-compare.png"

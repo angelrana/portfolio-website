@@ -75,7 +75,8 @@ const Home = () => {
               fontSize: "16px",
               fontWeight: "light",
             }}>
-            <a
+                    <a
+                        
               style={{ textDecoration: "none", color: "#2c2c2c" }}
               className="hover-line-animation">
               Home
@@ -86,6 +87,7 @@ const Home = () => {
               Resume
             </a>
             <a
+              href="#about"
               style={{ textDecoration: "none", color: "#2c2c2c" }}
               className="hover-line-animation">
               Contact
@@ -98,7 +100,7 @@ const Home = () => {
             display: "flex",
             justifyContent: "center",
             alignItems: "center",
-            marginTop: "7.6em",
+            marginTop: "8em",
           }}>
           <p
             style={{
@@ -175,9 +177,10 @@ const Home = () => {
                   marginTop: "-30px",
                   letterSpacing: "0.3px",
                   fontWeight: "lighter",
-                  
                 }}>
-                “Technixia ready to become a part of your life”
+                “Technixia ready to become a part of your life”. Technixia is a
+                technology innovator, pioneering in providing intelligent
+                automation solutions with
               </p>
 
               <div
@@ -199,7 +202,8 @@ const Home = () => {
                   Redesign
                 </p>
               </div>
-              <Link
+                        <Link 
+                            
                 to="/technixia"
                 style={{ textDecoration: "none", color: "#353535" }}>
                 <div
@@ -407,7 +411,7 @@ const Home = () => {
           </div>
 
           <img
-            src="/images/wellnessZ-page.png"
+            src="/images/Messages.png"
             style={{
               width: "50%",
               borderRadius: "4px",
@@ -420,7 +424,7 @@ const Home = () => {
               src="/images/paper.jpg"
               style={{
                 width: "98.5vw",
-                height: "130vh",
+                height: "115vh",
                 marginLeft: "-8px",
                 marginTop: "100px",
               }}></img>
@@ -430,18 +434,16 @@ const Home = () => {
             sx={{
               position: "absolute",
               display: "flex",
-              justifyContent: "space-evenly",
-              top: "15em",
+              top: "17.5em",
               left: "3em",
-              gap: "-50px",
             }}>
             <Box>
               <img
                 src="/images/angel.jpg"
                 style={{
-                  width: "70%",
-                  borderRadius: "4px",
-                  marginLeft: "6em",
+                  width: "60%",
+                  borderRadius: "20px",
+                  marginLeft: "8em",
                   marginTop: "1em",
                 }}></img>
             </Box>
@@ -450,12 +452,13 @@ const Home = () => {
                 style={{
                   color: "white",
                   fontFamily: "Lato, sans-serif",
-                  lineHeight: "27px",
+                  lineHeight: "35px",
                   fontWeight: "light",
                   fontSize: "18px",
-                  letterSpacing: "0.8px",
+                  letterSpacing: "0.5px",
                   marginLeft: "40px",
-                  marginRight: "100px",
+                  marginRight: "120px",
+                  wordSpacing: "3px",
                 }}>
                 Hey there! I'm Angel Thapa - a UI/UX designer and a MERN stack
                 developer with a great passion for design and art.
@@ -464,7 +467,12 @@ const Home = () => {
                 <span>Let's connect and create amazing projects :)</span>
               </p>
               <Box
-                style={{ display: "flex", flexDirection: "row", gap: "20px" }}>
+                style={{
+                  display: "flex",
+                  flexDirection: "row",
+                  gap: "20px",
+                  marginLeft: "40px",
+                }}>
                 <img src="/images/linkedin.png" style={{ width: "25px" }}></img>
                 <img src="/images/dribble.png" style={{ width: "25px" }}></img>
                 <img src="/images/gmail.png" style={{ width: "25px" }}></img>

@@ -71,5 +71,33 @@ html {
   border-radius: 3px;
   text-align: center;
   color: #FFC225;
+  font-weight: bold;
+   transition: transform .2s;
+}
 
+.prototype:hover {
+  background-color: #FFC225;
+  color: white;
+    transform: scale(1.1); 
+  
+}
+
+
+.prototype2 {
+  width: 200px;
+    border-color:#7AC143;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 3px;
+  text-align: center;
+  color: #7AC143;
+  font-weight: bold;
+   transition: transform .2s;
+}
+
+.prototype2:hover {
+  background-color: #7AC143;
+  color: white;
+    transform: scale(1.1); 
+  
 }

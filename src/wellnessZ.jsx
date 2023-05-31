@@ -85,15 +85,21 @@ const WellnessZ = () => {
           <p
             style={{
               fontSize: "18px",
-              color: "#909090",
+              color: "#353535",
               lineHeight: "35px",
-              marginTop: "-30px",
+              marginTop: "-20px",
               letterSpacing: "0.3px",
               fontWeight: "lighter",
             }}>
-            Technixia wanted the their users to be able to control their home
-            devices through mobile app, leading to less hassle
+            “Technixia ready to become a part of your life”. Technixia is a
+            technology innovator, pioneering in providing intelligent automation
+            solutions with in-house scalable and customised technology to
+            businesses. Our solutions have been an integral part of many
+            businesses throughout their digital transformation journey.
           </p>
+          <div className="prototype2">
+            <p>Try Prototype</p>
+          </div>
         </div>
 
         <img
@@ -106,15 +112,16 @@ const WellnessZ = () => {
       <Box
         className="role"
         style={{
-          width: "82%",
+          width: "87.6%",
           height: "50%",
-          marginLeft: "66px",
-          marginTop: "10em",
+          marginLeft: "74px",
+          marginTop: "7em",
           display: "flex",
           justifyContent: "space-around",
           alignItems: "center",
           fontFamily: "Lato, sans-serif",
-          padding: "40px",
+          paddingBottom: "50px",
+          paddingTop: "50px",
         }}>
         <div>
           <p
@@ -123,7 +130,7 @@ const WellnessZ = () => {
             }}>
             ROLE
           </p>
-          <p>UI/UX designer (Freelance)</p>
+          <p>UI/UX designer (freelance)</p>
         </div>
         <div>
           <p
@@ -141,7 +148,7 @@ const WellnessZ = () => {
             }}>
             DURATION
           </p>
-          <p>1 month</p>
+          <p>March 2023(1 month)</p>
         </div>
       </Box>
 
@@ -152,7 +159,7 @@ const WellnessZ = () => {
           justifyContent: "flex-start",
           alignItems: "center",
           marginTop: "80px",
-          marginLeft: "70px",
+          marginLeft: "74px",
         }}>
         <Box
           style={{
@@ -172,25 +179,31 @@ const WellnessZ = () => {
       </Box>
       <p
         style={{
-          width: "86%",
+          width: "87%",
           fontFamily: "Lato, sans-serif",
           marginLeft: "4em",
           fontSize: "18px",
           letterSpacing: "0.5px",
           lineHeight: "35px",
+          wordSpacing: "3px",
         }}>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae
-        explicabo esse ex tenetur rerum sunt assumenda dolorem, debitis fugit
-        reiciendis. Rem, repellat sint quasi modi maxime harum debitis amet
-        reprehenderit? Lorem ipsum dolor sit amet consectetur adipisicing elit.
-        Neque reprehenderit odio, eveniet unde ipsum ea aliquid commodi
-        exercitationem accusantium aspernatur, perferendis deleniti similique
-        nobis ipsam mollitia sequi, quod quia. Suscipit.
+        Technixia’s intelligent analytics & automation solutions help
+        residential housing societies, offices, industries, hotels, shopping
+        malls and retail sector in REDUCING, MAINTAINING and OPTIMISING variety
+        of appliances, and their power usage. By plugging-in to your
+        infrastructure, we can help you understand your current energy profile
+        by covering electrical, lighting, HVAC, motor & pump, mechanical and
+        technical services. Technixia solution allows you to access and monitor
+        your entire facility and premise energy consumption, anytime from
+        anywhere which makes energy saving easier. We provide IoT Based energy
+        monitoring device combined with the power of cloud computing & mobility
+        provides you with simple, proactive & actionable insights in real-time.
       </p>
 
       <Box
         sx={{
           backgroundColor: "#a2d47d",
+
           marginTop: "60px",
         }}>
         <Box
@@ -200,7 +213,7 @@ const WellnessZ = () => {
             justifyContent: "flex-start",
             alignItems: "center",
             marginTop: "80px",
-            marginLeft: "70px",
+            marginLeft: "74px",
             paddingTop: "40px",
           }}>
           <Box
@@ -221,23 +234,115 @@ const WellnessZ = () => {
         </Box>
         <p
           style={{
-            width: "86%",
+            width: "87%",
             fontFamily: "Lato, sans-serif",
             marginLeft: "4em",
             fontSize: "18px",
             letterSpacing: "0.5px",
-                      lineHeight: "35px",
-            paddingBottom: "50px"
+            lineHeight: "35px",
+            paddingBottom: "50px",
+            wordSpacing: "3px",
           }}>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae
-          explicabo esse ex tenetur rerum sunt assumenda dolorem, debitis fugit
-          reiciendis. Rem, repellat sint quasi modi maxime harum debitis amet
-          reprehenderit? Lorem ipsum dolor sit amet consectetur adipisicing
-          elit. Neque reprehenderit odio, eveniet unde ipsum ea aliquid commodi
-          exercitationem accusantium aspernatur, perferendis deleniti similique
-          nobis ipsam mollitia sequi, quod quia. Suscipit.
+          All-in-one solution was lacking. After going through the previous
+          designed app, we realized, users did'nt have multiple ways to operate
+          their devices and even though there were good features provided in the
+          app, the user's did'nt seem to understand it properly cause of the way
+          it was designed. When Suruchi Gagan(who guided me in this Internship),
+          told me about how "3-click-step" is important for the user when
+          designing anything, it made a lot of sense. So as a UI/UX designer I
+          wanted the user's journey to be as simple as possible, while keeping
+          in mind about the design flow.
         </p>
       </Box>
+      <Box
+        sx={{
+          display: "flex",
+          flexDirection: "row",
+          justifyContent: "flex-start",
+          alignItems: "center",
+          marginTop: "80px",
+          marginLeft: "74px",
+        }}>
+        <Box
+          style={{
+            width: "5%",
+            height: "1.4px",
+            backgroundColor: "#222222",
+          }}></Box>
+        <p
+          style={{
+            fontFamily: "Lato, sans-serif",
+            letterSpacing: "0.5px",
+            fontSize: "14px",
+            marginLeft: "10px",
+          }}>
+          WIREFRAME
+        </p>
+      </Box>
+
+      <Box
+        sx={{
+          display: "flex",
+          flexDirection: "row",
+          justifyContent: "center",
+          gap: "10px",
+          marginTop: "20px",
+        }}>
+        <img
+          src="/images/tech-compare.png"
+          style={{
+            width: "48%",
+            borderRadius: "4px",
+          }}></img>
+
+        <img
+          src="/images/tech-compare2.png"
+          style={{
+            width: "48%",
+            borderRadius: "4px",
+          }}></img>
+      </Box>
+      <Box
+        sx={{
+          display: "flex",
+          flexDirection: "row",
+          justifyContent: "flex-start",
+          alignItems: "center",
+          marginTop: "80px",
+          marginLeft: "74px",
+        }}>
+        <Box
+          style={{
+            width: "5%",
+            height: "1.4px",
+            backgroundColor: "#222222",
+          }}></Box>
+        <p
+          style={{
+            fontFamily: "Lato, sans-serif",
+            letterSpacing: "0.5px",
+            fontSize: "14px",
+            marginLeft: "10px",
+          }}>
+          WHY'S AND WHY NOT
+        </p>
+      </Box>
+      <div>
+        <ul
+          style={{
+            width: "87%",
+            fontFamily: "Lato, sans-serif",
+            marginLeft: "3em",
+            fontSize: "18px",
+            letterSpacing: "0.5px",
+            lineHeight: "35px",
+            paddingBottom: "50px",
+            wordSpacing: "3px",
+          }}>
+          <li>hekko</li>
+        </ul>
+      </div>
+      
     </Box>
   );
 }
