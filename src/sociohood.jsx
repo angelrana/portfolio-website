@@ -2,7 +2,7 @@ import React from 'react';
 import { Box } from '@mui/material';
 import { Link } from 'react-router-dom';
 import GoToTop from './GoToTop';
-
+import { HashLink } from 'react-router-hash-link';
 const Sociohood = () => {
   return (
     <Box>
@@ -54,11 +54,13 @@ const Sociohood = () => {
             className="hover-line-animation">
             Resume
           </a>
-          <a
-            style={{ textDecoration: "none", color: "#2c2c2c" }}
-            className="hover-line-animation">
-            Contact
-          </a>
+          <HashLink to="/#about">
+            <a
+              style={{ textDecoration: "none", color: "#2c2c2c" }}
+              className="hover-line-animation">
+              Contact
+            </a>
+          </HashLink>
         </Box>
       </Box>
 
@@ -184,12 +186,20 @@ const Sociohood = () => {
           lineHeight: "35px",
           wordSpacing: "3px",
         }}>
-        WellnessZ is a B2B platform for all the wellness coaches, nutritionist
-        and fitness coaches. Specially dealing in all client management tasks.
-        We provide features like - progress tracking, meal plan, herbalife
-        products and story sharing which allows the users to keep in touch with
-        the client. WellnessZ is basically built to make the fitness trainers
-        life simpler, cause they can keep records of every client.
+        A complete Township automation solution that increases security,
+        productivity, convenience for the stakeholder involved. We believe
+        automation will be a revolutionary step for any business which plans to
+        adopt it. We at SocioHood are working towards, creating an awareness,
+        about the need for change, with the help of our product and services.
+        Our flagship product "Township Automation and Management Solution" has
+        won the trust of major industry players AND REDUCED THEIR OPERATIONAL
+        COST BY 60%. We don't want to restrict ourselves with just simplifying
+        access, we aim to streamline the end-to end process. We have developed
+        various features in our flagship product which provides multi
+        dimensional benefits to our clients. From "access, security, convenience
+        for residents" TO "ease of management, better productivity with
+        minimised cost, vendor management, payouts, reports, attendance etc" we
+        have covered all the aspects.
       </p>
 
       <Box
@@ -235,13 +245,47 @@ const Sociohood = () => {
             paddingBottom: "60px",
             wordSpacing: "3px",
           }}>
-          Helping the fitness coaches, nutritionis to make their work simpler.
-          We wanted to allow the fitness trainers to keep track and records of
-          their client progress without much hassle. So our mission was to make
-          a app version of pen-n-paper work but in a better way.
+          Our mission was to provide a project management app along with few
+          inventory management features. We wanted to create a space where users
+          can maintain their different business through one platform with the
+          help of features like, number of employee, budget, tasks and deadline
+          tracking.
         </p>
       </Box>
+
       <Box
+        sx={{
+          display: "flex",
+          flexDirection: "row",
+          justifyContent: "flex-start",
+          alignItems: "center",
+          marginTop: "50px",
+          marginLeft: "74px",
+          paddingTop: "50px",
+          marginBottom: "30px",
+        }}>
+        <Box
+          style={{
+            width: "42%",
+            height: "1.4px",
+            backgroundColor: "#222222",
+          }}></Box>
+        <p
+          style={{
+            fontFamily: "Lato, sans-serif",
+            letterSpacing: "0.5px",
+            fontSize: "14px",
+          }}>
+          WORK IN PROGRESS
+        </p>
+        <Box
+          style={{
+            width: "42%",
+            height: "1.4px",
+            backgroundColor: "#222222",
+          }}></Box>
+      </Box>
+      {/* <Box
         sx={{
           display: "flex",
           flexDirection: "row",
@@ -263,7 +307,7 @@ const Sociohood = () => {
             fontSize: "14px",
             marginLeft: "10px",
           }}>
-          WIREFRAME
+          COMPETITIVE ANALYSIS
         </p>
       </Box>
 
@@ -289,6 +333,7 @@ const Sociohood = () => {
             borderRadius: "4px",
           }}></img>
       </Box>
+      
       <Box
         sx={{
           display: "flex",
@@ -328,7 +373,7 @@ const Sociohood = () => {
           }}>
           <li>hekko</li>
         </ul>
-      </div>
+      </div> */}
       {/* <div className="previous" style={{ textDecoration: "none" }}>
         <Link
           style={{ textDecoration: "none", color: "inherit" }}

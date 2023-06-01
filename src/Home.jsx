@@ -4,6 +4,7 @@ import "./App.css";
 import { Link } from 'react-router-dom';
 import GoToTop from './GoToTop';
 
+
 const Home = () => {
 
     return (
@@ -421,7 +422,7 @@ const Home = () => {
                 letterSpacing: "0.3px",
                 fontWeight: "lighter",
               }}>
-          I designed the studying app while working as a web developer.
+              I designed the studying app while working as a web developer.
             </p>
             <div style={{ display: "flex", gap: "10px" }}>
               <div
@@ -467,8 +468,8 @@ const Home = () => {
               <Link
                 style={{ textDecoration: "none", color: "inherit" }}
                 target="_blank"
-                to="https://www.figma.com/proto/OEMq0FhM9FEEu4QaO14A4h/The-WellnessZ?page-id=0%3A1&type=design&node-id=0-163&viewport=-947%2C-2115%2C0.24&scaling=scale-down&starting-point-node-id=0%3A3&show-proto-sidebar=1">
-                <p>Try Prototype</p>
+                to="https://www.figma.com/file/3d3THcLovRIRWxuw1lwK9V/AnsrCoach-UI%2FUX?type=design&node-id=0%3A1&t=5iFK63m2u7ShwRbo-1">
+                <p>View design</p>
               </Link>
             </div>
           </div>
@@ -521,6 +522,8 @@ const Home = () => {
                 <br></br>I love to create designs and products that favours the
                 user needs and expections.<br></br>
                 <span>Let's connect and create amazing projects :)</span>
+                <br></br>
+                My email: ennjelo@gmail.com
               </p>
               <Box
                 style={{
@@ -541,9 +544,9 @@ const Home = () => {
                     src="/images/dribble.png"
                     style={{ width: "25px" }}></img>
                 </Link>
-                <Link target="_blank" to="ennjelo@gmail.com">
+                {/* <Link to="ennjelo@gmail.com">
                   <img src="/images/gmail.png" style={{ width: "25px" }}></img>
-                </Link>
+                </Link> */}
               </Box>
             </Box>
           </Box>

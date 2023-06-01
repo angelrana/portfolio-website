@@ -2,6 +2,7 @@ import React from 'react';
 import { Box } from '@mui/material';
 import { Link } from 'react-router-dom';
 import GoToTop from './GoToTop';
+import { HashLink } from 'react-router-hash-link';
 
 const WellnessZ = () => {
   return (
@@ -54,11 +55,13 @@ const WellnessZ = () => {
             className="hover-line-animation">
             Resume
           </a>
-          <a
-            style={{ textDecoration: "none", color: "#2c2c2c" }}
-            className="hover-line-animation">
-            Contact
-          </a>
+          <HashLink to="/#about">
+            <a
+              style={{ textDecoration: "none", color: "#2c2c2c" }}
+              className="hover-line-animation">
+              Contact
+            </a>
+          </HashLink>
         </Box>
       </Box>
 
@@ -296,7 +299,7 @@ const WellnessZ = () => {
             borderRadius: "4px",
           }}></img>
       </Box>
-      <Box
+      {/* <Box
         sx={{
           display: "flex",
           flexDirection: "row",
@@ -304,8 +307,8 @@ const WellnessZ = () => {
           alignItems: "center",
           marginTop: "80px",
           marginLeft: "74px",
-        }}>
-        <Box
+        }}> */}
+      {/* <Box
           style={{
             width: "5%",
             height: "1.4px",
@@ -335,7 +338,7 @@ const WellnessZ = () => {
           }}>
           <li>hekko</li>
         </ul>
-      </div>
+      </div> */}
       <div className="next" style={{ textDecoration: "none" }}>
         <Link
           style={{ textDecoration: "none", color: "inherit" }}

@@ -2,9 +2,9 @@ import React from 'react';
 import { Box } from '@mui/material';
 import { Link } from 'react-router-dom';
 import GoToTop from './GoToTop';
+import { HashLink } from 'react-router-hash-link';
 
 const Technixia = () => {
-
     return (
       <Box>
         <Box
@@ -55,11 +55,13 @@ const Technixia = () => {
               className="hover-line-animation">
               Resume
             </a>
-            <a
-              style={{ textDecoration: "none", color: "#2c2c2c" }}
-              className="hover-line-animation">
-              Contact
-            </a>
+            <HashLink to="/#about">
+              <a 
+                style={{ textDecoration: "none", color: "#2c2c2c" }}
+                className="hover-line-animation">
+                Contact
+              </a>
+            </HashLink>
           </Box>
         </Box>
 
@@ -313,7 +315,7 @@ const Technixia = () => {
               borderRadius: "4px",
             }}></img>
         </Box>
-        <Box
+        {/* <Box
           sx={{
             display: "flex",
             flexDirection: "row",
@@ -341,7 +343,7 @@ const Technixia = () => {
         <div>
           <ul
             style={{
-              width: "50%",
+              width: "85%",
               fontFamily: "Lato, sans-serif",
               marginLeft: "3em",
               fontSize: "18px",
@@ -364,16 +366,15 @@ const Technixia = () => {
               scheduling it, making their one-way route easier.
             </li>
           </ul>
-            </div>
-              <div className="next" style={{ textDecoration: "none" }}>
-              <Link
-                style={{ textDecoration: "none", color: "inherit" }}
-                target="_blank"
-                    to="/wellnessZ"
-                >
-                <p>Next Project</p>
-              </Link>
-            </div>
+            </div> */}
+        <div className="next" style={{ textDecoration: "none" }}>
+          <Link
+            style={{ textDecoration: "none", color: "inherit" }}
+            to="/wellnessZ">
+            <p>Next Project</p>
+          </Link>
+        </div>
+
         <GoToTop />
       </Box>
     );
