@@ -1,42 +1,10 @@
 import { Box } from '@mui/material';
 import React from 'react';
 import "./App.css";
-import { useState } from "react";
 import { Link } from 'react-router-dom';
-
-// function Heading() {
-//     return (
-    
-//         <Box>
-//           <img
-//             alt="angel wings"
-//             src="https://t3.ftcdn.net/jpg/05/30/60/16/360_F_530601668_ZQ8ehfZvV18rfvOA4GSX5YLoHj3gaIY1.jpg"
-//             className="image"
-//             style={{
-//                 width: "100vw",
-//                 height: "128vh",
-//               overflow: "hidden",
-//               position: "absolute",
-//               top: 0,
-//               left: 0,
-           
-//             }}></img>
-//         </Box>
-     
-//     );
-// }
 
 
 const Home = () => {
- const [isHovering, setIsHovering] = useState(false);
-
- const handleMouseOver = () => {
-     setIsHovering(true);
- };
-
- const handleMouseOut = () => {
-   setIsHovering(false);
- };
 
     return (
       <Box>
@@ -112,8 +80,7 @@ const Home = () => {
             Hello, I'm
             <br></br>
             <span
-              //   onMouseOver={handleMouseOver}
-              //   onMouseOut={handleMouseOut}
+            
               className="color"
               style={{
                 fontFamily: "Wendy One, sans-serif",
@@ -122,7 +89,6 @@ const Home = () => {
               }}>
               ANGEL
             </span>
-            {/* {isHovering && <Heading />} */}
           </p>
         </Box>
 
