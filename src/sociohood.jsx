@@ -1,6 +1,7 @@
 import React from 'react';
 import { Box } from '@mui/material';
 import { Link } from 'react-router-dom';
+import GoToTop from './GoToTop';
 
 const Sociohood = () => {
   return (
@@ -48,6 +49,7 @@ const Sociohood = () => {
             </a>
           </Link>
           <a
+            href="pdf/AngelThapa_Resume.pdf"
             style={{ textDecoration: "none", color: "#2c2c2c" }}
             className="hover-line-animation">
             Resume
@@ -91,22 +93,14 @@ const Sociohood = () => {
               letterSpacing: "0.3px",
               fontWeight: "lighter",
             }}>
-            “Helping wellness coaches to keep the world healthy and happier”.
-            WellnessZ focuses on helping the fitness coaches keep track of their
-            client progress, through multiple features provided by us.
+            We are a project management which allows user to write their tasks,
+            set out complaints, track task progress, communication with
+            employees through messages and create surveys, polls.
           </p>
-          <div className="prototype3">
-            <Link
-              style={{ textDecoration: "none", color: "inherit" }}
-              target="_blank"
-              to="https://www.figma.com/proto/OEMq0FhM9FEEu4QaO14A4h/The-WellnessZ?page-id=0%3A1&type=design&node-id=0-163&viewport=-947%2C-2115%2C0.24&scaling=scale-down&starting-point-node-id=0%3A3&show-proto-sidebar=1">
-              <p>Try Prototype</p>
-            </Link>
-          </div>
         </div>
 
         <img
-          src="/images/Messages.png"
+          src="/images/sociohood.png"
           style={{
             width: "50%",
             borderRadius: "4px",
@@ -118,7 +112,7 @@ const Sociohood = () => {
           width: "87.6%",
           height: "50%",
           marginLeft: "74px",
-          marginTop: "7em",
+          marginTop: "9em",
           display: "flex",
           justifyContent: "space-around",
           alignItems: "center",
@@ -161,7 +155,7 @@ const Sociohood = () => {
           flexDirection: "row",
           justifyContent: "flex-start",
           alignItems: "center",
-          marginTop: "80px",
+          marginTop: "90px",
           marginLeft: "74px",
         }}>
         <Box
@@ -200,9 +194,9 @@ const Sociohood = () => {
 
       <Box
         sx={{
-          backgroundColor: "#a2d47d",
+          backgroundColor: "#e3f5fa",
 
-          marginTop: "60px",
+          marginTop: "90px",
         }}>
         <Box
           sx={{
@@ -212,7 +206,7 @@ const Sociohood = () => {
             alignItems: "center",
             marginTop: "80px",
             marginLeft: "74px",
-            paddingTop: "40px",
+            paddingTop: "50px",
           }}>
           <Box
             style={{
@@ -238,7 +232,7 @@ const Sociohood = () => {
             fontSize: "18px",
             letterSpacing: "0.5px",
             lineHeight: "35px",
-            paddingBottom: "50px",
+            paddingBottom: "60px",
             wordSpacing: "3px",
           }}>
           Helping the fitness coaches, nutritionis to make their work simpler.
@@ -335,6 +329,14 @@ const Sociohood = () => {
           <li>hekko</li>
         </ul>
       </div>
+      {/* <div className="previous" style={{ textDecoration: "none" }}>
+        <Link
+          style={{ textDecoration: "none", color: "inherit" }}
+          to="/wellnessZ">
+          <p>Previous Project</p>
+        </Link>
+      </div> */}
+      <GoToTop />
     </Box>
   );
 }

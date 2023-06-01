@@ -1,6 +1,7 @@
 import React from 'react';
 import { Box } from '@mui/material';
 import { Link } from 'react-router-dom';
+import GoToTop from './GoToTop';
 
 const Technixia = () => {
 
@@ -49,6 +50,7 @@ const Technixia = () => {
               </a>
             </Link>
             <a
+              href="pdf/AngelThapa_Resume.pdf"
               style={{ textDecoration: "none", color: "#2c2c2c" }}
               className="hover-line-animation">
               Resume
@@ -99,13 +101,15 @@ const Technixia = () => {
               of many businesses throughout their digital transformation
               journey.
             </p>
-                
-                        <div className="prototype" style={{textDecoration: "none"}}>
-                            <Link style={{textDecoration: "none", color: "inherit"}} target="_blank" to="https://www.figma.com/proto/BLkO2XCFEiTQbqpZA7XEU4/The-Technixia?page-id=0%3A1&type=design&node-id=7-2&viewport=-68%2C131%2C0.08&scaling=scale-down&starting-point-node-id=7%3A2&show-proto-sidebar=1">
+
+            <div className="prototype" style={{ textDecoration: "none" }}>
+              <Link
+                style={{ textDecoration: "none", color: "inherit" }}
+                target="_blank"
+                to="https://www.figma.com/proto/BLkO2XCFEiTQbqpZA7XEU4/The-Technixia?page-id=0%3A1&type=design&node-id=7-2&viewport=-68%2C131%2C0.08&scaling=scale-down&starting-point-node-id=7%3A2&show-proto-sidebar=1">
                 <p>Try Prototype</p>
-                            </Link>
-              </div>
-          
+              </Link>
+            </div>
           </div>
 
           <img
@@ -121,7 +125,7 @@ const Technixia = () => {
             width: "87.6%",
             height: "50%",
             marginLeft: "74px",
-            marginTop: "8em",
+            marginTop: "9em",
             display: "flex",
             justifyContent: "space-around",
             alignItems: "center",
@@ -164,7 +168,7 @@ const Technixia = () => {
             flexDirection: "row",
             justifyContent: "flex-start",
             alignItems: "center",
-            marginTop: "85px",
+            marginTop: "90px",
             marginLeft: "74px",
           }}>
           <Box
@@ -209,9 +213,8 @@ const Technixia = () => {
 
         <Box
           sx={{
-            backgroundColor: "#fbe62a",
-
-            marginTop: "85px",
+            backgroundColor: "#fff9c3",
+            marginTop: "90px",
           }}>
           <Box
             sx={{
@@ -338,14 +341,14 @@ const Technixia = () => {
         <div>
           <ul
             style={{
-              width: "87%",
+              width: "50%",
               fontFamily: "Lato, sans-serif",
               marginLeft: "3em",
               fontSize: "18px",
               letterSpacing: "0.5px",
               lineHeight: "35px",
               paddingBottom: "50px",
-              wordSpacing: "3px",
+                        wordSpacing: "3px",
             }}>
             <li>
               The user has an option to maintain devices which is designated to
@@ -361,7 +364,17 @@ const Technixia = () => {
               scheduling it, making their one-way route easier.
             </li>
           </ul>
-        </div>
+            </div>
+              <div className="next" style={{ textDecoration: "none" }}>
+              <Link
+                style={{ textDecoration: "none", color: "inherit" }}
+                target="_blank"
+                    to="/wellnessZ"
+                >
+                <p>Next Project</p>
+              </Link>
+            </div>
+        <GoToTop />
       </Box>
     );
 }

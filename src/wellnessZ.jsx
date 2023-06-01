@@ -1,6 +1,7 @@
 import React from 'react';
 import { Box } from '@mui/material';
 import { Link } from 'react-router-dom';
+import GoToTop from './GoToTop';
 
 const WellnessZ = () => {
   return (
@@ -48,6 +49,7 @@ const WellnessZ = () => {
             </a>
           </Link>
           <a
+            href="pdf/AngelThapa_Resume.pdf"
             style={{ textDecoration: "none", color: "#2c2c2c" }}
             className="hover-line-animation">
             Resume
@@ -118,7 +120,7 @@ const WellnessZ = () => {
           width: "87.6%",
           height: "50%",
           marginLeft: "74px",
-          marginTop: "7em",
+          marginTop: "9em",
           display: "flex",
           justifyContent: "space-around",
           alignItems: "center",
@@ -161,7 +163,7 @@ const WellnessZ = () => {
           flexDirection: "row",
           justifyContent: "flex-start",
           alignItems: "center",
-          marginTop: "80px",
+          marginTop: "90px",
           marginLeft: "74px",
         }}>
         <Box
@@ -200,8 +202,7 @@ const WellnessZ = () => {
 
       <Box
         sx={{
-          backgroundColor: "#a2d47d",
-
+          backgroundColor: "#d7ecc6",
           marginTop: "60px",
         }}>
         <Box
@@ -210,9 +211,9 @@ const WellnessZ = () => {
             flexDirection: "row",
             justifyContent: "flex-start",
             alignItems: "center",
-            marginTop: "80px",
+            marginTop: "90px",
             marginLeft: "74px",
-            paddingTop: "40px",
+            paddingTop: "50px",
           }}>
           <Box
             style={{
@@ -238,12 +239,13 @@ const WellnessZ = () => {
             fontSize: "18px",
             letterSpacing: "0.5px",
             lineHeight: "35px",
-            paddingBottom: "50px",
+            paddingBottom: "60px",
             wordSpacing: "3px",
           }}>
-                  Helping the fitness coaches, nutritionis to make their work simpler. We wanted to allow the 
-                  fitness trainers to keep track and records of their client progress without much hassle. So our mission 
-                  was to make a app version of pen-n-paper work but in a better way.
+          Helping the fitness coaches, nutritionis to make their work simpler.
+          We wanted to allow the fitness trainers to keep track and records of
+          their client progress without much hassle. So our mission was to make
+          a app version of pen-n-paper work but in a better way.
         </p>
       </Box>
       <Box
@@ -252,7 +254,7 @@ const WellnessZ = () => {
           flexDirection: "row",
           justifyContent: "flex-start",
           alignItems: "center",
-          marginTop: "80px",
+          marginTop: "90px",
           marginLeft: "74px",
         }}>
         <Box
@@ -277,20 +279,20 @@ const WellnessZ = () => {
           display: "flex",
           flexDirection: "row",
           justifyContent: "center",
-          gap: "10px",
+          gap: "30px",
           marginTop: "20px",
         }}>
         <img
-          src="/images/tech-compare.png"
+          src="/images/wireframe1.jpg"
           style={{
-            width: "48%",
+            width: "43%",
             borderRadius: "4px",
           }}></img>
 
         <img
-          src="/images/tech-compare2.png"
+          src="/images/wireframe2.jpg"
           style={{
-            width: "48%",
+            width: "43%",
             borderRadius: "4px",
           }}></img>
       </Box>
@@ -334,6 +336,14 @@ const WellnessZ = () => {
           <li>hekko</li>
         </ul>
       </div>
+      <div className="next" style={{ textDecoration: "none" }}>
+        <Link
+          style={{ textDecoration: "none", color: "inherit" }}
+          to="/sociohood">
+          <p>Next Project</p>
+        </Link>
+      </div>
+      <GoToTop />
     </Box>
   );
 }

@@ -2,7 +2,7 @@ import { Box } from '@mui/material';
 import React from 'react';
 import "./App.css";
 import { Link } from 'react-router-dom';
-
+import GoToTop from './GoToTop';
 
 const Home = () => {
 
@@ -43,13 +43,14 @@ const Home = () => {
               fontSize: "16px",
               fontWeight: "light",
             }}>
-                    <a
-                        
+            <a
               style={{ textDecoration: "none", color: "#2c2c2c" }}
               className="hover-line-animation">
               Home
             </a>
             <a
+              href="pdf/AngelThapa_Resume.pdf"
+              target="_blank"
               style={{ textDecoration: "none", color: "#2c2c2c" }}
               className="hover-line-animation">
               Resume
@@ -80,7 +81,6 @@ const Home = () => {
             Hello, I'm
             <br></br>
             <span
-            
               className="color"
               style={{
                 fontFamily: "Wendy One, sans-serif",
@@ -103,7 +103,7 @@ const Home = () => {
               fontFamily: "Lato, sans-serif",
               fontStyle: "italic",
               fontSize: "17px",
-              marginTop: "145px",
+              marginTop: "155px",
               marginRight: "4.1em",
               letterSpacing: "0.5px",
             }}>
@@ -113,7 +113,7 @@ const Home = () => {
 
         <hr style={{ width: "96%", marginTop: "115px" }}></hr>
 
-        <Box sx={{ marginTop: "8em" }}>
+        <Box sx={{ marginTop: "9em" }}>
           <Box
             sx={{
               display: "flex",
@@ -168,8 +168,7 @@ const Home = () => {
                   Redesign
                 </p>
               </div>
-                        <Link 
-                            
+              <Link
                 to="/technixia"
                 style={{ textDecoration: "none", color: "#353535" }}>
                 <div
@@ -181,7 +180,6 @@ const Home = () => {
                   <h4
                     style={{
                       fontSize: "16px",
-
                       letterSpacing: "0.4px",
                       marginTop: "30px",
                     }}>
@@ -213,6 +211,13 @@ const Home = () => {
               gap: "60px",
               marginTop: "170px",
             }}>
+            <img
+              src="/images/wellnessZ-page.png"
+              style={{
+                width: "50%",
+                borderRadius: "4px",
+              }}></img>
+
             <div
               style={{
                 fontFamily: "Lato, sans-serif",
@@ -285,13 +290,6 @@ const Home = () => {
                 </div>
               </Link>
             </div>
-
-            <img
-              src="/images/wellnessZ-page.png"
-              style={{
-                width: "50%",
-                borderRadius: "4px",
-              }}></img>
           </Box>
         </Box>
 
@@ -326,7 +324,8 @@ const Home = () => {
                 letterSpacing: "0.3px",
                 fontWeight: "lighter",
               }}>
-              "Helping wellness coaches to keep the world healthy and happier"
+              We are a project management which allows user to write their
+              tasks, set out complaints, track task
             </p>
 
             <div
@@ -377,11 +376,102 @@ const Home = () => {
           </div>
 
           <img
-            src="/images/Messages.png"
+            src="/images/sociohood.png"
             style={{
               width: "50%",
               borderRadius: "4px",
             }}></img>
+        </Box>
+
+        <Box
+          sx={{
+            display: "flex",
+            flexDirection: "row",
+            justifyContent: "center",
+            gap: "60px",
+            marginTop: "170px",
+          }}>
+          <img
+            src="/images/ansrcoach.png"
+            style={{
+              width: "50%",
+              borderRadius: "4px",
+            }}></img>
+
+          <div
+            style={{
+              fontFamily: "Lato, sans-serif",
+              width: "26em",
+              marginTop: "-40px",
+            }}>
+            <p
+              style={{
+                fontSize: "40px",
+                fontWeight: "bold",
+                color: "#222222",
+              }}>
+              AnsrCoach
+            </p>
+            <p
+              style={{
+                fontSize: "18px",
+                color: "#909090",
+                lineHeight: "35px",
+                marginTop: "-30px",
+                letterSpacing: "0.3px",
+                fontWeight: "lighter",
+              }}>
+          I designed the studying app while working as a web developer.
+            </p>
+            <div style={{ display: "flex", gap: "10px" }}>
+              <div
+                style={{
+                  backgroundColor: "#f7f7f7",
+                  width: "110px",
+                  height: "30px",
+                  borderRadius: "16px",
+                  display: "flex",
+                  justifyContent: "center",
+                  alignItems: "center",
+                }}>
+                <p
+                  style={{
+                    fontSize: "14px",
+                    color: "#353535",
+                    letterSpacing: "0.3px",
+                  }}>
+                  UI/UX
+                </p>
+              </div>
+              <div
+                style={{
+                  backgroundColor: "#f7f7f7",
+                  width: "180px",
+                  height: "30px",
+                  borderRadius: "16px",
+                  display: "flex",
+                  justifyContent: "center",
+                  alignItems: "center",
+                }}>
+                <p
+                  style={{
+                    fontSize: "14px",
+                    color: "#353535",
+                    letterSpacing: "0.3px",
+                  }}>
+                  Mern Stack Developer
+                </p>
+              </div>
+            </div>
+            <div className="prototype4">
+              <Link
+                style={{ textDecoration: "none", color: "inherit" }}
+                target="_blank"
+                to="https://www.figma.com/proto/OEMq0FhM9FEEu4QaO14A4h/The-WellnessZ?page-id=0%3A1&type=design&node-id=0-163&viewport=-947%2C-2115%2C0.24&scaling=scale-down&starting-point-node-id=0%3A3&show-proto-sidebar=1">
+                <p>Try Prototype</p>
+              </Link>
+            </div>
+          </div>
         </Box>
 
         <Box style={{ position: "relative" }} id="about">
@@ -391,7 +481,7 @@ const Home = () => {
               style={{
                 width: "98.5vw",
                 height: "115vh",
-            
+
                 marginTop: "100px",
               }}></img>
           </Box>
@@ -400,7 +490,7 @@ const Home = () => {
             sx={{
               position: "absolute",
               display: "flex",
-              top: "18em",
+              top: "19em",
               left: "3em",
             }}>
             <Box>
@@ -439,13 +529,26 @@ const Home = () => {
                   gap: "20px",
                   marginLeft: "40px",
                 }}>
-                <img src="/images/linkedin.png" style={{ width: "25px" }}></img>
-                <img src="/images/dribble.png" style={{ width: "25px" }}></img>
-                <img src="/images/gmail.png" style={{ width: "25px" }}></img>
+                <Link
+                  target="_blank"
+                  to="https://www.linkedin.com/in/angel-rana-a725a5231/">
+                  <img
+                    src="/images/linkedin.png"
+                    style={{ width: "25px" }}></img>
+                </Link>
+                <Link target="_blank" to="https://dribbble.com/Ann_rana">
+                  <img
+                    src="/images/dribble.png"
+                    style={{ width: "25px" }}></img>
+                </Link>
+                <Link target="_blank" to="ennjelo@gmail.com">
+                  <img src="/images/gmail.png" style={{ width: "25px" }}></img>
+                </Link>
               </Box>
             </Box>
           </Box>
         </Box>
+        <GoToTop />
       </Box>
     );
 }
