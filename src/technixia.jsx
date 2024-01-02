@@ -15,53 +15,68 @@ const Technixia = () => {
             justifyContent: "space-between",
             alignItems: "center",
           }}>
-          <Box
-            sx={{
-              //   paddingLeft: 9,
-              marginLeft: 9,
-            }}>
+          <Box>
             <Link to="/" style={{ textDecoration: "none", color: "black" }}>
               <h1
                 style={{
                   fontFamily: "Wendy One, sans-serif",
                   letterSpacing: "3px",
+                  color: "#200513",
                 }}>
                 A.
               </h1>
             </Link>
           </Box>
           <Box
+            className="font-link"
             sx={{
-              marginRight: 9,
               display: "flex",
               flexDirection: "row",
-              justifyContent: "flex-end",
               alignItems: "center",
-              gap: "55px",
+              gap: "56px",
               fontFamily: "Lato, sans-serif",
               fontSize: "16px",
-              fontWeight: "light",
+              color: "#656465",
             }}>
-            <Link to="/">
+            <HashLink to="/#about">
               <a
+                href="#about"
                 style={{ textDecoration: "none", color: "#2c2c2c" }}
                 className="hover-line-animation">
-                Home
+                About
               </a>
-            </Link>
+            </HashLink>
+            <HashLink to="/#project">
+              <a
+                href="#project"
+                style={{ textDecoration: "none", color: "#2c2c2c" }}
+                className="hover-line-animation">
+                Project
+              </a>
+            </HashLink>
             <a
               href="pdf/AngelThapa_Resume.pdf"
+              target="_blank"
               style={{ textDecoration: "none", color: "#2c2c2c" }}
               className="hover-line-animation">
               Resume
             </a>
-            <HashLink to="/#about">
-              <a 
-                style={{ textDecoration: "none", color: "#2c2c2c" }}
-                className="hover-line-animation">
-                Contact
-              </a>
-            </HashLink>
+          </Box>
+          <Box
+            style={{
+              display: "flex",
+              flexDirection: "row",
+              gap: "30px",
+              color: "#656465",
+            }}>
+            <Link
+              target="_blank"
+              to="https://www.linkedin.com/in/angel-rana-a725a5231/">
+              <img src="/images/linkedin.svg" style={{ width: "22px" }}></img>
+            </Link>
+            <Link target="_blank" to="https://dribbble.com/Ann_rana">
+              <img src="/images/dribble.svg" style={{ width: "22px" }}></img>
+            </Link>
           </Box>
         </Box>
 
@@ -106,9 +121,9 @@ const Technixia = () => {
 
             <div className="prototype" style={{ textDecoration: "none" }}>
               <Link
-                style={{ textDecoration: "none", color: "inherit" }}
+                style={{ textDecoration: "none", color: "white" }}
                 target="_blank"
-                to="https://www.figma.com/proto/BLkO2XCFEiTQbqpZA7XEU4/The-Technixia?page-id=0%3A1&type=design&node-id=7-2&viewport=-68%2C131%2C0.08&scaling=scale-down&starting-point-node-id=7%3A2&show-proto-sidebar=1">
+                to="https://www.figma.com/file/BLkO2XCFEiTQbqpZA7XEU4/Technixia?type=design&node-id=0%3A1&mode=design&t=DR1T1i1Po4yx7nLB-1">
                 <p>Try Prototype</p>
               </Link>
             </div>
@@ -124,9 +139,9 @@ const Technixia = () => {
         <Box
           className="role"
           style={{
-            width: "87.6%",
+            width: "93%",
             height: "50%",
-            marginLeft: "74px",
+            marginLeft: "39px",
             marginTop: "9em",
             display: "flex",
             justifyContent: "space-around",
@@ -241,7 +256,7 @@ const Technixia = () => {
                 fontSize: "14px",
                 marginLeft: "10px",
               }}>
-              PROBLEM
+              CHALLENGES
             </p>
           </Box>
           <p
@@ -255,16 +270,18 @@ const Technixia = () => {
               paddingBottom: "60px",
               wordSpacing: "3px",
             }}>
-            All-in-one solution was lacking. After going through the previous
-            designed app, we realized, users did'nt have multiple ways to
-            operate their devices and even though there were good features
-            provided in the app, the user's did'nt seem to understand it
-            properly cause of the way it was designed. When Suruchi Gagan(who
-            guided me in this Internship), told me about how "3-click-step" is
-            important for the user when designing anything, it made me think
-            deeper through the user's perspective. So as a UI/UX designer I
-            wanted the user's journey to be as simple as possible, while keeping
-            in mind about the design flow.
+            In redesigning our UI/UX, a key challenge was users struggling with
+            the quick lines feature, causing delays. We opted for a
+            comprehensive redesign to not only fix this but also improve the
+            entire user experience. My role expanded beyond quick lines to
+            ensure users could easily save their favorite devices. As part of
+            the redesign, we introduced a feature enabling users to link devices
+            to specific rooms, allowing scheduling and seamless device
+            management. <br></br>
+            <br></br>Users could also create personalized scenes like "morning"
+            or "night" for automated device actions. A notable addition was the
+            flexibility for users to change their locations based on where they
+            have different devices, such as home or office.
           </p>
         </Box>
         <Box
@@ -370,7 +387,7 @@ const Technixia = () => {
         <div className="next" style={{ textDecoration: "none" }}>
           <Link
             style={{ textDecoration: "none", color: "inherit" }}
-            to="/wellnessZ">
+            to="/ansrcoach">
             <p>Next Project</p>
           </Link>
         </div>

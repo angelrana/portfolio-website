@@ -1,8 +1,8 @@
-import { Box } from '@mui/material';
+import { Box, Button } from '@mui/material';
 import React from 'react';
 import "./App.css";
-import { Link } from 'react-router-dom';
 import GoToTop from './GoToTop';
+import { Link } from 'react-router-dom';
 
 
 const Home = () => {
@@ -17,37 +17,40 @@ const Home = () => {
             justifyContent: "space-between",
             alignItems: "center",
           }}>
-          <Box
-            sx={{
-              //   paddingLeft: 9,
-              marginLeft: 9,
-            }}>
+          <Box>
             <Link to="/" style={{ textDecoration: "none", color: "black" }}>
               <h1
                 style={{
                   fontFamily: "Wendy One, sans-serif",
                   letterSpacing: "3px",
+                  color: "#200513",
                 }}>
                 A.
               </h1>
             </Link>
           </Box>
           <Box
+            className="font-link"
             sx={{
-              marginRight: 9,
               display: "flex",
               flexDirection: "row",
-              justifyContent: "flex-end",
               alignItems: "center",
-              gap: "55px",
+              gap: "56px",
               fontFamily: "Lato, sans-serif",
               fontSize: "16px",
-              fontWeight: "light",
+              color: "#656465",
             }}>
             <a
+              href="#about"
               style={{ textDecoration: "none", color: "#2c2c2c" }}
               className="hover-line-animation">
-              Home
+              About
+            </a>
+            <a
+              href="#project"
+              style={{ textDecoration: "none", color: "#2c2c2c" }}
+              className="hover-line-animation">
+              Project
             </a>
             <a
               href="pdf/AngelThapa_Resume.pdf"
@@ -56,63 +59,647 @@ const Home = () => {
               className="hover-line-animation">
               Resume
             </a>
-            <a
-              href="#about"
-              style={{ textDecoration: "none", color: "#2c2c2c" }}
-              className="hover-line-animation">
-              Contact
-            </a>
+          </Box>
+          <Box
+            style={{
+              display: "flex",
+              flexDirection: "row",
+              gap: "30px",
+              color: "#656465",
+            }}>
+            <Link
+              target="_blank"
+              to="https://www.linkedin.com/in/angel-rana-a725a5231/">
+              <img src="/images/linkedin.svg" style={{ width: "22px" }}></img>
+            </Link>
+            <Link target="_blank" to="https://dribbble.com/Ann_rana">
+              <img src="/images/dribble.svg" style={{ width: "22px" }}></img>
+            </Link>
           </Box>
         </Box>
 
         <Box
-          sx={{
+          style={{
+            backgroundColor: "rgba(248, 226, 233, 24%)",
+            width: "1110px",
+            height: "420px",
+            marginTop: "30px",
+          }}>
+          <Box
+            style={{
+              display: "flex",
+              flexDirection: "row",
+              justifyContent: "center",
+              gap: "50px",
+            }}>
+            <Box>
+              <p
+                className="font"
+                style={{
+                  fontFamily: "Lato, sans-serif",
+                  fontSize: "66px",
+                  lineHeight: "80px",
+                  textAlign: "left",
+                  letterSpacing: "2px",
+                  color: "#200513",
+                }}>
+                Hi! I am<br></br>
+                <span style={{ color: "#6D1240" }}>Angel Thapa</span>
+              </p>
+              <p
+                style={{
+                  fontFamily: "Lato, sans-serif",
+                  fontSize: "18px",
+                  fontWeight: "lighter",
+                  marginTop: "-55px",
+                  color: "#200513",
+                }}>
+                a <span className="font-semi">UI/UX Designer</span> and{" "}
+                <span className="font-semi" style={{ fontWeight: "bold" }}>
+                  front-end developer
+                </span>
+              </p>
+
+              <a
+                className="button"
+                style={{
+                  textDecoration: "none",
+                  color: "white",
+                  fontSize: "16px",
+                  fontFamily: "Urbanist, sans-serif",
+                  letterSpacing: "0.5px",
+                  backgroundColor: "#6D1240",
+                  width: "200px",
+                  height: "40px",
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "center",
+                  padding: "4px",
+                  borderRadius: "6px",
+                  textDecoration: "none",
+                  marginTop: "24px",
+                }}
+                href="mailto:ranannjel77@gmail.com?subject='Let's connect'">
+                Connect with me
+              </a>
+            </Box>
+            <img
+              src="/images/image.svg"
+              style={{
+                width: "469.33px",
+                height: "352px",
+
+                marginTop: "30px",
+              }}></img>
+          </Box>
+        </Box>
+
+        <h2
+          className="font-h"
+          style={{
+            textAlign: "center",
+            fontFamily: "Lato, sans-serif",
+            fontSize: "40px",
+            letterSpacing: "0.5px",
+            lineHeight: "54px",
+            marginTop: "140px",
+            color: "#200513",
+          }}>
+          Some of the work I was <br></br>repsonsible for
+        </h2>
+
+        <Box
+          id="project"
+          style={{
             display: "flex",
             justifyContent: "center",
             alignItems: "center",
-            marginTop: "8em",
+            flexDirection: "column",
+            marginTop: "140px",
           }}>
-          <p
+          <img src="/images/cinepebble.svg"></img>
+          <Box
             style={{
-              fontFamily: "Lato, sans-serif",
-              fontSize: "16px",
-              lineHeight: "70px",
-              textAlign: "left",
+              display: "flex",
+              flexDirection: "row",
+              justifyContent: "space-between",
+              gap: "680px",
+              alignItems: "center",
+              marginTop: "-8px",
             }}>
-            Hello, I'm
-            <br></br>
-            <span
-              className="color"
+            <Link to="/cinepebble" style={{ textDecoration: "none" }}>
+              <div
+                style={{
+                  display: "flex",
+                  flexDirection: "row",
+                  alignItems: "center",
+                  justifyContent: "center",
+                  gap: "8px",
+                }}>
+                <p
+                  className="font-semi"
+                  style={{
+                    fontFamily: "Lato, sans-serif",
+                    fontSize: "20px",
+                    color: "#200513",
+                  }}>
+                  Cinepebble
+                </p>
+                <img
+                  src="/images/arrow.svg"
+                  style={{ width: "18px", marginTop: "3px" }}></img>
+              </div>
+            </Link>
+
+            <p
+              className="font-text"
               style={{
-                fontFamily: "Wendy One, sans-serif",
-                fontWeight: "bold",
-                marginTop: "-16px",
+                fontFamily: "Lato, sans-serif",
+                fontSize: "16px",
+                color: "#5E5E5E",
               }}>
-              ANGEL
-            </span>
-          </p>
+              July, 2023
+            </p>
+          </Box>
         </Box>
 
         <Box
-          sx={{
+          style={{
             display: "flex",
-            justifyContent: "flex-end",
+            justifyContent: "center",
             alignItems: "center",
+            flexDirection: "column",
+            marginTop: "140px",
           }}>
-          <p
+          <img src="/images/wellnessZ.svg"></img>
+          <Box
             style={{
-              fontFamily: "Lato, sans-serif",
-              fontStyle: "italic",
-              fontSize: "17px",
-              marginTop: "155px",
-              marginRight: "4.1em",
-              letterSpacing: "0.5px",
+              display: "flex",
+              flexDirection: "row",
+              justifyContent: "space-between",
+              gap: "670px",
+              alignItems: "center",
+              marginTop: "-8px",
             }}>
-            -a self-taught UI/UX designer
-          </p>
+            <Link to="/wellnessZ" style={{ textDecoration: "none" }}>
+              <div
+                style={{
+                  display: "flex",
+                  flexDirection: "row",
+                  alignItems: "center",
+                  justifyContent: "center",
+                  gap: "8px",
+                }}>
+                <p
+                  className="font-semi"
+                  style={{
+                    fontFamily: "Lato, sans-serif",
+                    fontSize: "20px",
+                    color: "#200513",
+                  }}>
+                  WellnessZ
+                </p>
+                <img
+                  src="/images/arrow.svg"
+                  style={{ width: "18px", marginTop: "3px" }}></img>
+              </div>
+            </Link>
+
+            <p
+              className="font-text"
+              style={{
+                fontFamily: "Lato, sans-serif",
+                fontSize: "16px",
+                color: "#5E5E5E",
+              }}>
+              March, 2023
+            </p>
+          </Box>
         </Box>
 
-        <hr style={{ width: "96%", marginTop: "115px" }}></hr>
+        <Box
+          style={{
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+            flexDirection: "column",
+            marginTop: "140px",
+          }}>
+          <img src="/images/technixia.svg"></img>
+          <Box
+            style={{
+              display: "flex",
+              flexDirection: "row",
+              justifyContent: "space-between",
+              gap: "694px",
+              alignItems: "center",
+              marginTop: "-8px",
+            }}>
+            <Link to="/technixia" style={{ textDecoration: "none" }}>
+              <div
+                style={{
+                  display: "flex",
+                  flexDirection: "row",
+                  alignItems: "center",
+                  justifyContent: "center",
+                  gap: "8px",
+                }}>
+                <p
+                  className="font-semi"
+                  style={{
+                    fontFamily: "Lato, sans-serif",
+                    fontSize: "20px",
+                    color: "#200513",
+                  }}>
+                  Technixia
+                </p>
+                <img
+                  src="/images/arrow.svg"
+                  style={{ width: "18px", marginTop: "3px" }}></img>
+              </div>
+            </Link>
+
+            <p
+              className="font-text"
+              style={{
+                fontFamily: "Lato, sans-serif",
+                fontSize: "16px",
+                color: "#5E5E5E",
+              }}>
+              May, 2023
+            </p>
+          </Box>
+        </Box>
+
+        <Box
+          style={{
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+            flexDirection: "column",
+            marginTop: "140px",
+          }}>
+          <img src="/images/ansrcoach.svg"></img>
+          <Box
+            style={{
+              display: "flex",
+              flexDirection: "row",
+              justifyContent: "space-between",
+              gap: "640px",
+              alignItems: "center",
+              marginTop: "-8px",
+            }}>
+            <Link to="/ansrcoach" style={{ textDecoration: "none" }}>
+              <div
+                style={{
+                  display: "flex",
+                  flexDirection: "row",
+                  alignItems: "center",
+                  justifyContent: "center",
+                  gap: "8px",
+                }}>
+                <p
+                  className="font-semi"
+                  style={{
+                    fontFamily: "Lato, sans-serif",
+                    fontSize: "20px",
+                    color: "#200513",
+                  }}>
+                  AnsrCoach
+                </p>
+                <img
+                  src="/images/arrow.svg"
+                  style={{ width: "18px", marginTop: "3px" }}></img>
+              </div>
+            </Link>
+
+            <p
+              className="font-text"
+              style={{
+                fontFamily: "Lato, sans-serif",
+                fontSize: "16px",
+                color: "#5E5E5E",
+              }}>
+              December, 2022
+            </p>
+          </Box>
+        </Box>
+
+        <Box
+          style={{
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+            flexDirection: "column",
+            marginTop: "140px",
+          }}>
+          <img src="/images/sociohood.svg"></img>
+          <Box
+            style={{
+              display: "flex",
+              flexDirection: "row",
+              justifyContent: "space-between",
+              gap: "680px",
+              alignItems: "center",
+              marginTop: "-8px",
+            }}>
+            <Link to="/sociohood" style={{ textDecoration: "none" }}>
+              <div
+                style={{
+                  display: "flex",
+                  flexDirection: "row",
+                  alignItems: "center",
+                  justifyContent: "center",
+                  gap: "8px",
+                }}>
+                <p
+                  className="font-semi"
+                  style={{
+                    fontFamily: "Lato, sans-serif",
+                    fontSize: "20px",
+                    color: "#200513",
+                  }}>
+                  Sociohood
+                </p>
+                <img
+                  src="/images/arrow.svg"
+                  style={{ width: "18px", marginTop: "3px" }}></img>
+              </div>
+            </Link>
+
+            <p
+              className="font-text"
+              style={{
+                fontFamily: "Lato, sans-serif",
+                fontSize: "16px",
+                color: "#5E5E5E",
+              }}>
+              April, 2023
+            </p>
+          </Box>
+        </Box>
+
+        <Box
+          id="about"
+          style={{
+            backgroundColor: "rgba(248, 226, 233, 24%)",
+            width: "1110px",
+            height: "420px",
+            marginTop: "100px",
+            display: "flex",
+            flexDirection: "row",
+            alignItems: "center",
+            justifyContent: "space-around",
+          }}>
+          <Box>
+            <img src="images/sitting.svg"></img>
+          </Box>
+          <Box
+            sx={{
+              color: "#000000",
+              fontFamily: "Lato, sans-serif",
+              letterSpacing: "0.2px",
+              width: "40%",
+              wordSpacing: "0.6px",
+              lineHeight: "26px",
+            }}>
+            <p className="font-semi" style={{ fontSize: "22px" }}>
+              About me
+            </p>
+            <p>
+              Hey, I'm a UI/UX designer with 2 years of experience. I specialize
+              in creating designs that are not just visually appealing but also
+              user-friendly.
+            </p>
+            <p>
+              My strengths include crafting intuitive interfaces, solving design
+              challenges with creativity, and ensuring a smooth user experience.
+              <br></br>
+            </p>
+            <Box
+              style={{
+                display: "flex",
+                flexDirection: "row",
+                gap: "24px",
+                color: "#656465",
+                marginTop: "8px",
+              }}>
+              <Link
+                target="_blank"
+                to="https://www.linkedin.com/in/angel-rana-a725a5231/">
+                <img src="/images/linkedin.svg" style={{ width: "22px" }}></img>
+              </Link>
+              <Link target="_blank" to="https://dribbble.com/Ann_rana">
+                <img src="/images/dribble.svg" style={{ width: "22px" }}></img>
+              </Link>
+            </Box>
+          </Box>
+        </Box>
+
+        <Box>
+          <h4
+            className="font-h"
+            style={{
+              textAlign: "left",
+              fontFamily: "Lato, sans-serif",
+              fontSize: "28px",
+              letterSpacing: "0.5px",
+              marginTop: "100px",
+              color: "#200513",
+            }}>
+            Check out my other prototypes
+          </h4>
+
+          <Box
+            sx={{
+              marginTop: "60px",
+            }}>
+            <Box
+              sx={{
+                display: "flex",
+                flexDirection: "row",
+                alignItems: "center",
+                justifyContent: "space-around",
+                gap: "80px",
+              }}>
+              <Box sx={{ display: "flex", flexDirection: "column" }}>
+                <img
+                  src="/images/1.svg"
+                  style={{ width: "318px", height: "218px" }}></img>
+                <a
+                  target="_blank"
+                  href="https://www.linkedin.com/in/angel-rana-a725a5231/"
+                  className="button"
+                  style={{
+                    textDecoration: "none",
+                    color: "white",
+                    fontSize: "16px",
+                    fontFamily: "Urbanist, sans-serif",
+                    letterSpacing: "0.5px",
+                    backgroundColor: "#3F3838",
+                    width: "310px",
+                    height: "40px",
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "center",
+                    padding: "4px",
+                    borderRadius: "6px",
+                    textDecoration: "none",
+                    marginTop: "24px",
+                  }}>
+                  Try it out
+                </a>
+              </Box>
+              <Box sx={{ display: "flex", flexDirection: "column" }}>
+                <img
+                  src="/images/2.svg"
+                  style={{ width: "318px", height: "218px" }}></img>
+                <a
+                  target="_blank"
+                  href="https://www.linkedin.com/in/angel-rana-a725a5231/"
+                  className="button"
+                  style={{
+                    textDecoration: "none",
+                    color: "white",
+                    fontSize: "16px",
+                    fontFamily: "Urbanist, sans-serif",
+                    letterSpacing: "0.5px",
+                    backgroundColor: "#3F3838",
+                    width: "310px",
+                    height: "40px",
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "center",
+                    padding: "4px",
+                    borderRadius: "6px",
+                    textDecoration: "none",
+                    marginTop: "24px",
+                  }}>
+                  Try it out
+                </a>
+              </Box>
+              <Box sx={{ display: "flex", flexDirection: "column" }}>
+                <img
+                  src="/images/3.svg"
+                  style={{ width: "318px", height: "218px" }}></img>
+                <a
+                  target="_blank"
+                  href="https://www.linkedin.com/in/angel-rana-a725a5231/"
+                  className="button"
+                  style={{
+                    textDecoration: "none",
+                    color: "white",
+                    fontSize: "16px",
+                    fontFamily: "Urbanist, sans-serif",
+                    letterSpacing: "0.5px",
+                    backgroundColor: "#3F3838",
+                    width: "310px",
+                    height: "40px",
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "center",
+                    padding: "4px",
+                    borderRadius: "6px",
+                    textDecoration: "none",
+                    marginTop: "24px",
+                  }}>
+                  Try it out
+                </a>
+              </Box>
+            </Box>
+          </Box>
+        </Box>
+
+        {/* <Box
+          sx={{
+            display: "flex",
+            flexDirection: "row",
+            justifyContent: "center",
+            gap: "60px",
+            marginTop: "170px",
+          }}>
+          <img
+            src="/images/cinepebble.png"
+            style={{
+              width: "50%",
+              borderRadius: "4px",
+            }}></img>
+
+          <div
+            style={{
+              fontFamily: "Lato, sans-serif",
+              width: "26em",
+              marginTop: "-40px",
+            }}>
+            <p
+              style={{
+                fontSize: "40px",
+                fontWeight: "bold",
+                color: "#222222",
+              }}>
+              CinePebble
+            </p>
+            <p
+              style={{
+                fontSize: "18px",
+                color: "#909090",
+                lineHeight: "35px",
+                marginTop: "-30px",
+                letterSpacing: "0.3px",
+                fontWeight: "lighter",
+              }}>
+              "Cinepebble is the first social network designed exclusively for
+              movie enthusiasts! Our features make it easy to connect with film
+              aficionados, find collaborators, and raise funds."
+            </p>
+
+            <div
+              style={{
+                backgroundColor: "#f7f7f7",
+                width: "110px",
+                height: "30px",
+                borderRadius: "16px",
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+              }}>
+              <p
+                style={{
+                  fontSize: "14px",
+                  color: "#353535",
+                  letterSpacing: "0.3px",
+                }}>
+                UI/UX
+              </p>
+            </div>
+            <Link
+              to="/cinepebble"
+              style={{ textDecoration: "none", color: "#353535" }}>
+              <div
+                style={{
+                  display: "flex",
+                  flexDirection: "row",
+                  alignItems: "center",
+                }}>
+                <h4
+                  style={{
+                    fontSize: "16px",
+
+                    letterSpacing: "0.4px",
+                    marginTop: "30px",
+                  }}>
+                  View Project
+                </h4>
+                <img
+                  src="/images/greenarrow.png"
+                  style={{
+                    width: "40px",
+                    marginTop: "10px",
+                  }}></img>
+              </div>
+            </Link>
+          </div>
+        </Box>
 
         <Box sx={{ marginTop: "9em" }}>
           <Box
@@ -473,84 +1060,8 @@ const Home = () => {
               </Link>
             </div>
           </div>
-        </Box>
+        </Box> */}
 
-        <Box style={{ position: "relative" }} id="about">
-          <Box>
-            <img
-              src="/images/paper.jpg"
-              style={{
-                width: "98.5vw",
-                height: "115vh",
-
-                marginTop: "100px",
-              }}></img>
-          </Box>
-
-          <Box
-            sx={{
-              position: "absolute",
-              display: "flex",
-              top: "19em",
-              left: "3em",
-            }}>
-            <Box>
-              <img
-                src="/images/angel.jpg"
-                style={{
-                  width: "60%",
-                  borderRadius: "20px",
-                  marginLeft: "8em",
-                  marginTop: "1em",
-                }}></img>
-            </Box>
-            <Box sx={{ display: "flex", flexDirection: "column" }}>
-              <p
-                style={{
-                  color: "white",
-                  fontFamily: "Lato, sans-serif",
-                  lineHeight: "35px",
-                  fontWeight: "light",
-                  fontSize: "18px",
-                  letterSpacing: "0.5px",
-                  marginLeft: "40px",
-                  marginRight: "120px",
-                  wordSpacing: "3px",
-                }}>
-                Hey there! I'm Angel Thapa - a UI/UX designer and a MERN stack
-                developer with a great passion for design and art.
-                <br></br>I love to create designs and products that favours the
-                user needs and expections.<br></br>
-                <span>Let's connect and create amazing projects :)</span>
-                <br></br>
-                My email: ennjelo@gmail.com
-              </p>
-              <Box
-                style={{
-                  display: "flex",
-                  flexDirection: "row",
-                  gap: "20px",
-                  marginLeft: "40px",
-                }}>
-                <Link
-                  target="_blank"
-                  to="https://www.linkedin.com/in/angel-rana-a725a5231/">
-                  <img
-                    src="/images/linkedin.png"
-                    style={{ width: "25px" }}></img>
-                </Link>
-                <Link target="_blank" to="https://dribbble.com/Ann_rana">
-                  <img
-                    src="/images/dribble.png"
-                    style={{ width: "25px" }}></img>
-                </Link>
-                {/* <Link to="ennjelo@gmail.com">
-                  <img src="/images/gmail.png" style={{ width: "25px" }}></img>
-                </Link> */}
-              </Box>
-            </Box>
-          </Box>
-        </Box>
         <GoToTop />
       </Box>
     );

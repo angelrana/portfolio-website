@@ -1,10 +1,10 @@
-import React from 'react';
-import { Box } from '@mui/material';
-import { Link } from 'react-router-dom';
-import GoToTop from './GoToTop';
-import { HashLink } from 'react-router-hash-link';
+import React from "react";
+import { Box } from "@mui/material";
+import { Link } from "react-router-dom";
+import GoToTop from "./GoToTop";
+import { HashLink } from "react-router-hash-link";
 
-const WellnessZ = () => {
+const Cinepebble = () => {
   return (
     <Box>
       <Box
@@ -100,7 +100,7 @@ const WellnessZ = () => {
               fontWeight: "bold",
               color: "#222222",
             }}>
-            WellnessZ
+            Cinepebble
           </p>
           <p
             style={{
@@ -111,22 +111,22 @@ const WellnessZ = () => {
               letterSpacing: "0.3px",
               fontWeight: "lighter",
             }}>
-            “Helping wellness coaches to keep the world healthy and happier”.
-            WellnessZ focuses on helping the fitness coaches keep track of their
-            client progress, through multiple features provided by us.
+            "Cinepebble is the first social network designed exclusively for
+            movie enthusiasts! Our features make it easy to connect with film
+            aficionados, find collaborators, and raise funds."
           </p>
-          <div className="prototype2">
+          <div className="prototype1">
             <Link
               style={{ textDecoration: "none", color: "white" }}
               target="_blank"
-              to="https://www.figma.com/proto/OEMq0FhM9FEEu4QaO14A4h/WellnessZ?page-id=0%3A1&type=design&node-id=0-978&viewport=199%2C65%2C0.04&t=6lGgdLnsFLSRDA2S-1&scaling=scale-down&starting-point-node-id=0%3A3&show-proto-sidebar=1&mode=design">
+              to="https://www.figma.com/proto/XNfHlFW5i6u7zM6Saotehi/Cinepebble?page-id=0%3A1&type=design&node-id=0-471&viewport=-1992%2C25%2C0.09&t=QLyB0OMUcLxNtB3C-1&scaling=scale-down&starting-point-node-id=0%3A471&show-proto-sidebar=1&mode=design">
               <p>Try Prototype</p>
             </Link>
           </div>
         </div>
 
         <img
-          src="/images/wellnessZ-page.png"
+          src="/images/cinepebble2.svg"
           style={{
             width: "50%",
             borderRadius: "4px",
@@ -141,7 +141,7 @@ const WellnessZ = () => {
           marginTop: "9em",
           display: "flex",
           justifyContent: "space-around",
-          alignItems: "center",
+          alignItems: "start",
           fontFamily: "Lato, sans-serif",
           paddingBottom: "50px",
           paddingTop: "50px",
@@ -153,7 +153,7 @@ const WellnessZ = () => {
             }}>
             ROLE
           </p>
-          <p>UI/UX designer (freelance)</p>
+          <p>UI/UX designer (full-time)</p>
         </div>
         <div>
           <p
@@ -162,7 +162,7 @@ const WellnessZ = () => {
             }}>
             TEAM
           </p>
-          <p>Angel Thapa (solo)</p>
+          <p>Angel Thapa</p>
         </div>
         <div>
           <p
@@ -171,7 +171,7 @@ const WellnessZ = () => {
             }}>
             DURATION
           </p>
-          <p>March 2023(1 month)</p>
+          <p>July 2023 (6 months)</p>
         </div>
       </Box>
 
@@ -210,17 +210,18 @@ const WellnessZ = () => {
           lineHeight: "35px",
           wordSpacing: "3px",
         }}>
-        WellnessZ is a B2B platform for all the wellness coaches, nutritionist
-        and fitness coaches. Specially dealing in all client management tasks.
-        We provide features like - progress tracking, meal plan, herbalife
-        products and story sharing which allows the users to keep in touch with
-        the client. WellnessZ is basically built to make the fitness trainers
-        life simpler, cause they can keep records of every client.
+        Cinepebble is a Global Networking Platform for media enthusiasts looking
+        to connect, collaborate, and crowd-fund media projects powered by our
+        network of investors and audience members. Building a career in this
+        industry can be difficult and sometimes unattainable. Therefore we are
+        committed to making it convenient through technology for you to execute
+        and practice what you like to do. Every member willing to receive and
+        offer support to our creative members will be in a safe environment.
       </p>
 
       <Box
         sx={{
-          backgroundColor: "#d7ecc6",
+          backgroundColor: "#fff8e1",
           marginTop: "60px",
         }}>
         <Box
@@ -260,20 +261,31 @@ const WellnessZ = () => {
             paddingBottom: "60px",
             wordSpacing: "3px",
           }}>
-          The goal was to create a platform where trainers could manage client
-          details, craft personalized diet plans, and easily share workout
-          videos and picture templates via email or WhatsApp. Firstly, I focused
-          on creating a user-friendly interface for trainers to input client
-          information efficiently. This involved designing forms and layouts
-          that made it simple to organize client data like fitness goals and
-          progress. <br></br>
-          <br></br>Crafting diet plans required a balance between comprehensive
-          options and ease of use. I designed a system allowing trainers to
-          customize meal plans based on individual needs, ensuring nutritional
-          details were clear and easy to follow. In addition to the core
-          features, the introduction of a retail aspect presented a unique
-          challenge. I had to design a section where trainers could manage and
-          track the sale of the herbalife products and to customise it.
+          The task involved a comprehensive overhaul, focusing on altering the
+          app's layout, repositioning main icons, and essentially giving it a
+          makeover to achieve a minimalistic, clean, and aesthetically pleasing
+          look. Firstly, I dove into reshaping how everything was organized in
+          the app. The goal was to make it more user-friendly and intuitive. I
+          wanted users to effortlessly navigate through the platform, whether
+          they were checking out their friends' updates or posting their own
+          content.
+          <br></br>
+          <br></br>
+          The main icons, like those for messaging or notifications,got a new,
+          more logical spot. I strategically placed them to enhance user
+          experience, ensuring easy access to key features. The idea was to
+          simplify the interface, making sure users could easily understand and
+          use the essential functionalities.
+          <br></br>
+          <br></br>
+          We carefully selected colors, fonts, and design elements to achieve a
+          harmonious and pleasing aesthetic. The aim was to not just improve
+          functionality but also make the app visually appealing, creating an
+          enjoyable user experience. To inform the redesign decisions, we
+          conducted user interviews and research. Understanding how people
+          interacted with the platform, their preferences, and pain points
+          guided the changes we implemented. Regular feedback loops helped us
+          iterate on the design, ensuring it resonated well with the user base.
         </p>
       </Box>
       <Box
@@ -306,19 +318,13 @@ const WellnessZ = () => {
         sx={{
           display: "flex",
           flexDirection: "row",
-          justifyContent: "center",
-          gap: "30px",
+          justifyContent: "flex-start",
+
           marginTop: "20px",
+          marginLeft: "74px",
         }}>
         <img
-          src="/images/wireframe1.jpg"
-          style={{
-            width: "43%",
-            borderRadius: "4px",
-          }}></img>
-
-        <img
-          src="/images/wireframe2.jpg"
+          src="/images/wf1.jpg"
           style={{
             width: "43%",
             borderRadius: "4px",
@@ -328,13 +334,13 @@ const WellnessZ = () => {
       <div className="next" style={{ textDecoration: "none" }}>
         <Link
           style={{ textDecoration: "none", color: "inherit" }}
-          to="/technixia">
+          to="/wellnessZ">
           <p>Next Project</p>
         </Link>
       </div>
       <GoToTop />
     </Box>
   );
-}
+};
 
-export default WellnessZ
+export default Cinepebble;

@@ -1,10 +1,10 @@
-import React from 'react';
-import { Box } from '@mui/material';
-import { Link } from 'react-router-dom';
-import GoToTop from './GoToTop';
-import { HashLink } from 'react-router-hash-link';
+import React from "react";
+import { Box } from "@mui/material";
+import { Link } from "react-router-dom";
+import GoToTop from "./GoToTop";
+import { HashLink } from "react-router-hash-link";
 
-const WellnessZ = () => {
+const AnsrCoach = () => {
   return (
     <Box>
       <Box
@@ -100,7 +100,7 @@ const WellnessZ = () => {
               fontWeight: "bold",
               color: "#222222",
             }}>
-            WellnessZ
+            AnsrCoach
           </p>
           <p
             style={{
@@ -111,22 +111,23 @@ const WellnessZ = () => {
               letterSpacing: "0.3px",
               fontWeight: "lighter",
             }}>
-            “Helping wellness coaches to keep the world healthy and happier”.
-            WellnessZ focuses on helping the fitness coaches keep track of their
-            client progress, through multiple features provided by us.
+            AnsrCoach is a social learning platform to help students learn,
+            intern and engage, all at once. We help students and professionals
+            connect with industry leaders, helping them learn skills that matter
+            in the industry.
           </p>
-          <div className="prototype2">
+          <div className="prototype4">
             <Link
               style={{ textDecoration: "none", color: "white" }}
               target="_blank"
-              to="https://www.figma.com/proto/OEMq0FhM9FEEu4QaO14A4h/WellnessZ?page-id=0%3A1&type=design&node-id=0-978&viewport=199%2C65%2C0.04&t=6lGgdLnsFLSRDA2S-1&scaling=scale-down&starting-point-node-id=0%3A3&show-proto-sidebar=1&mode=design">
+              to="https://www.figma.com/file/iPPOa3OXgU32ZjMYstLH2l/AnsrCoach?type=design&node-id=0%3A1&mode=design&t=x9ld7CZXk4rPhSmS-1">
               <p>Try Prototype</p>
             </Link>
           </div>
         </div>
 
         <img
-          src="/images/wellnessZ-page.png"
+          src="/images/ansrcoach.png"
           style={{
             width: "50%",
             borderRadius: "4px",
@@ -153,7 +154,7 @@ const WellnessZ = () => {
             }}>
             ROLE
           </p>
-          <p>UI/UX designer (freelance)</p>
+          <p>UI/UX designer (Internship)</p>
         </div>
         <div>
           <p
@@ -162,7 +163,7 @@ const WellnessZ = () => {
             }}>
             TEAM
           </p>
-          <p>Angel Thapa (solo)</p>
+          <p>Angel Thapa </p>
         </div>
         <div>
           <p
@@ -171,7 +172,7 @@ const WellnessZ = () => {
             }}>
             DURATION
           </p>
-          <p>March 2023(1 month)</p>
+          <p>December 2022(5 months)</p>
         </div>
       </Box>
 
@@ -210,17 +211,19 @@ const WellnessZ = () => {
           lineHeight: "35px",
           wordSpacing: "3px",
         }}>
-        WellnessZ is a B2B platform for all the wellness coaches, nutritionist
-        and fitness coaches. Specially dealing in all client management tasks.
-        We provide features like - progress tracking, meal plan, herbalife
-        products and story sharing which allows the users to keep in touch with
-        the client. WellnessZ is basically built to make the fitness trainers
-        life simpler, cause they can keep records of every client.
+        At AnsrCoach we thrive to prepare the leaders of tomorrow with
+        sophisticated, best in class learning approaches. We believe in
+        upskilling each and every Individual. Why We? Our online learning
+        platform offers technical skill development training to undergraduate,
+        intermediate students, freelancers, and those who want to switch jobs.
+        Imagine the first year of University with all the diversified knowledge
+        you'd possess. You'd undoubtedly leave an indelible mark on everyone's
+        mind.
       </p>
 
       <Box
         sx={{
-          backgroundColor: "#d7ecc6",
+          backgroundColor: "#FAEAE8",
           marginTop: "60px",
         }}>
         <Box
@@ -260,81 +263,38 @@ const WellnessZ = () => {
             paddingBottom: "60px",
             wordSpacing: "3px",
           }}>
-          The goal was to create a platform where trainers could manage client
-          details, craft personalized diet plans, and easily share workout
-          videos and picture templates via email or WhatsApp. Firstly, I focused
-          on creating a user-friendly interface for trainers to input client
-          information efficiently. This involved designing forms and layouts
-          that made it simple to organize client data like fitness goals and
-          progress. <br></br>
-          <br></br>Crafting diet plans required a balance between comprehensive
-          options and ease of use. I designed a system allowing trainers to
-          customize meal plans based on individual needs, ensuring nutritional
-          details were clear and easy to follow. In addition to the core
-          features, the introduction of a retail aspect presented a unique
-          challenge. I had to design a section where trainers could manage and
-          track the sale of the herbalife products and to customise it.
+          Designing a study app that offered students subject-specific videos,
+          tests, online quizzes, and notes for their courses was quite an
+          interesting challenge. The main focus was creating an interface that
+          made it super easy for students to find what they needed. I worked on
+          making the app feel organized and user-friendly so that students could
+          easily discover and watch videos related to their subjects. The tests
+          and quizzes were a big part of the app too. I made sure these sections
+          were engaging and easy to use. Students could jump into tests and get
+          feedback instantly. Access to subject notes was another important
+          feature. I designed a section where students could easily find and
+          read through their course materials. <br></br>
+          <br></br> It was crucial that everything flowed smoothly within the
+          app. So, I made sure that transitioning between videos, tests,
+          quizzes, and notes felt seamless. This way, students could easily
+          switch between different study materials without any hassle. In terms
+          of visual design, I aimed for a clean and appealing look with a
+          consistent color scheme and user-friendly text. The idea was to make
+          the learning experience enjoyable, encouraging students to use the app
+          regularly.
         </p>
-      </Box>
-      <Box
-        sx={{
-          display: "flex",
-          flexDirection: "row",
-          justifyContent: "flex-start",
-          alignItems: "center",
-          marginTop: "90px",
-          marginLeft: "74px",
-        }}>
-        <Box
-          style={{
-            width: "5%",
-            height: "1.4px",
-            backgroundColor: "#222222",
-          }}></Box>
-        <p
-          style={{
-            fontFamily: "Lato, sans-serif",
-            letterSpacing: "0.5px",
-            fontSize: "14px",
-            marginLeft: "10px",
-          }}>
-          WIREFRAME
-        </p>
-      </Box>
-
-      <Box
-        sx={{
-          display: "flex",
-          flexDirection: "row",
-          justifyContent: "center",
-          gap: "30px",
-          marginTop: "20px",
-        }}>
-        <img
-          src="/images/wireframe1.jpg"
-          style={{
-            width: "43%",
-            borderRadius: "4px",
-          }}></img>
-
-        <img
-          src="/images/wireframe2.jpg"
-          style={{
-            width: "43%",
-            borderRadius: "4px",
-          }}></img>
       </Box>
 
       <div className="next" style={{ textDecoration: "none" }}>
         <Link
           style={{ textDecoration: "none", color: "inherit" }}
-          to="/technixia">
+          to="/sociohood">
           <p>Next Project</p>
         </Link>
       </div>
       <GoToTop />
     </Box>
   );
-}
+};
 
-export default WellnessZ
+export default AnsrCoach;

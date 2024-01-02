@@ -1,5 +1,6 @@
-html, body{margin:0px; padding:0px;}
-
+html, body{margin: 6px 40px 60px 40px; padding:0px;}
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@400;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
 
 .color {
   background: -webkit-linear-gradient(25deg, #008080 30%, rgba(0, 80, 80) 40%);
@@ -12,6 +13,34 @@ html, body{margin:0px; padding:0px;}
                  position: relative;
                   z-index: 20px;
 }
+
+.button {
+  font-weight: 700;
+}
+
+.font-link {
+  font-weight: 400;
+}
+
+.subinfo {
+  font-weight: 400;
+}
+
+.font {
+  font-weight: 900;
+}
+
+.font-h{
+font-weight: 700;
+}
+.font-semi {
+  font-weight: 600;
+}
+
+.font-text {
+  font-weight: 400;
+}
+
 
 
  /* .color:hover {
@@ -65,18 +94,41 @@ html {
 
 .prototype {
   width: 200px;
-    border-color:#FFC225;
-  border-style: solid;
-  border-width: 1px;
+  height: 50px;
+    background-color:#FFC225;
   border-radius: 3px;
   text-align: center;
   color: #FFC225;
   font-weight: bold;
    transition: transform .2s;
+    display: flex;
+   align-items: center;
+   justify-content: center;
 }
 
 .prototype:hover {
-  background-color: #FFC225;
+  background-color: #fea91d;
+  color: white;
+    transform: scale(1.06); 
+  
+}
+
+.prototype1 {
+  width: 200px;
+  height: 50px;
+  border-radius: 3px;
+  background-color: #ffc107;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+   transition: transform .2s;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.prototype1:hover {
+  background-color: #ffa000;
   color: white;
     transform: scale(1.06); 
   
@@ -85,18 +137,20 @@ html {
 
 .prototype2 {
   width: 200px;
-    border-color:#7AC143;
-  border-style: solid;
-  border-width: 1px;
+  height: 50px;
+    background-color:#7AC143;
   border-radius: 3px;
   text-align: center;
   color: #7AC143;
   font-weight: bold;
    transition: transform .2s;
+     display: flex;
+   align-items: center;
+   justify-content: center;
 }
 
 .prototype2:hover {
-  background-color: #7AC143;
+  background-color: #579d31;
   color: white;
     transform: scale(1.06); 
   
@@ -124,19 +178,21 @@ html {
 
 .prototype4 {
   width: 200px;
-    border-color:#FF3717;
-  border-style: solid;
-  border-width: 1px;
+  height: 50px;
+    background-color:#FF3717;
   border-radius: 3px;
   text-align: center;
   color: #FF3717;
   font-weight: bold;
    transition: transform .2s;
    margin-top: 30px;
+    display: flex;
+   align-items: center;
+   justify-content: center;
 }
 
 .prototype4:hover {
-  background-color: #FF3717;
+  background-color: #f12e11;
   color: white;
     transform: scale(1.06); 
 }
@@ -154,7 +210,7 @@ html {
   font-weight: bold;
    transition: transform .2s;
 float: right;
-margin-right: 4em;
+
 margin-bottom: 3em;
 margin-top: 3em;
 }

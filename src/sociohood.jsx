@@ -14,53 +14,68 @@ const Sociohood = () => {
           justifyContent: "space-between",
           alignItems: "center",
         }}>
-        <Box
-          sx={{
-            //   paddingLeft: 9,
-            marginLeft: 9,
-          }}>
+        <Box>
           <Link to="/" style={{ textDecoration: "none", color: "black" }}>
             <h1
               style={{
                 fontFamily: "Wendy One, sans-serif",
                 letterSpacing: "3px",
+                color: "#200513",
               }}>
               A.
             </h1>
           </Link>
         </Box>
         <Box
+          className="font-link"
           sx={{
-            marginRight: 9,
             display: "flex",
             flexDirection: "row",
-            justifyContent: "flex-end",
             alignItems: "center",
-            gap: "55px",
+            gap: "56px",
             fontFamily: "Lato, sans-serif",
             fontSize: "16px",
-            fontWeight: "light",
+            color: "#656465",
           }}>
-          <Link to="/">
+          <HashLink to="/#about">
             <a
+              href="#about"
               style={{ textDecoration: "none", color: "#2c2c2c" }}
               className="hover-line-animation">
-              Home
+              About
             </a>
-          </Link>
+          </HashLink>
+          <HashLink to="/#project">
+            <a
+              href="#project"
+              style={{ textDecoration: "none", color: "#2c2c2c" }}
+              className="hover-line-animation">
+              Project
+            </a>
+          </HashLink>
           <a
             href="pdf/AngelThapa_Resume.pdf"
+            target="_blank"
             style={{ textDecoration: "none", color: "#2c2c2c" }}
             className="hover-line-animation">
             Resume
           </a>
-          <HashLink to="/#about">
-            <a
-              style={{ textDecoration: "none", color: "#2c2c2c" }}
-              className="hover-line-animation">
-              Contact
-            </a>
-          </HashLink>
+        </Box>
+        <Box
+          style={{
+            display: "flex",
+            flexDirection: "row",
+            gap: "30px",
+            color: "#656465",
+          }}>
+          <Link
+            target="_blank"
+            to="https://www.linkedin.com/in/angel-rana-a725a5231/">
+            <img src="/images/linkedin.svg" style={{ width: "22px" }}></img>
+          </Link>
+          <Link target="_blank" to="https://dribbble.com/Ann_rana">
+            <img src="/images/dribble.svg" style={{ width: "22px" }}></img>
+          </Link>
         </Box>
       </Box>
 
@@ -111,9 +126,9 @@ const Sociohood = () => {
       <Box
         className="role"
         style={{
-          width: "87.6%",
+          width: "93%",
           height: "50%",
-          marginLeft: "74px",
+          marginLeft: "39px",
           marginTop: "9em",
           display: "flex",
           justifyContent: "space-around",
