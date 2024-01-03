@@ -117,7 +117,7 @@ const Sociohood = () => {
         </div>
 
         <img
-          src="/images/sociohood.png"
+          src="/images/sociohood2.svg"
           style={{
             width: "50%",
             borderRadius: "4px",

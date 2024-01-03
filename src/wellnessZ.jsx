@@ -126,7 +126,7 @@ const WellnessZ = () => {
         </div>
 
         <img
-          src="/images/wellnessZ-page.png"
+          src="/images/wellnessZ2.svg"
           style={{
             width: "50%",
             borderRadius: "4px",

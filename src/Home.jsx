@@ -528,7 +528,7 @@ const Home = () => {
                   style={{ width: "318px", height: "218px" }}></img>
                 <a
                   target="_blank"
-                  href="https://www.linkedin.com/in/angel-rana-a725a5231/"
+                  href="https://www.figma.com/proto/3jUS4GKhdfCJJfYFzgVGzq/Research-session?page-id=0%3A1&type=design&node-id=6-450&viewport=332%2C250%2C0.14&t=LcirLfELeNAx6Iw9-1&scaling=min-zoom&mode=design"
                   className="button"
                   style={{
                     textDecoration: "none",
@@ -556,7 +556,7 @@ const Home = () => {
                   style={{ width: "318px", height: "218px" }}></img>
                 <a
                   target="_blank"
-                  href="https://www.linkedin.com/in/angel-rana-a725a5231/"
+                  href="https://www.figma.com/proto/3jUS4GKhdfCJJfYFzgVGzq/Research-session?page-id=46%3A125&type=design&node-id=46-126&viewport=408%2C303%2C0.08&t=dRtKDu6PKB0qHWVW-1&scaling=scale-down&starting-point-node-id=46%3A126&mode=design"
                   className="button"
                   style={{
                     textDecoration: "none",
@@ -584,7 +584,7 @@ const Home = () => {
                   style={{ width: "318px", height: "218px" }}></img>
                 <a
                   target="_blank"
-                  href="https://www.linkedin.com/in/angel-rana-a725a5231/"
+                  href="https://www.figma.com/proto/3jUS4GKhdfCJJfYFzgVGzq/Research-session?page-id=9%3A493&type=design&node-id=12-598&viewport=128%2C140%2C0.05&t=UEvzIsI4rcfVbNH2-1&scaling=scale-down&starting-point-node-id=12%3A598&show-proto-sidebar=1&mode=design"
                   className="button"
                   style={{
                     textDecoration: "none",
