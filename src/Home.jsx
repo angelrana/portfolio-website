@@ -81,8 +81,7 @@ const Home = () => {
         <Box
           style={{
             backgroundColor: "rgba(248, 226, 233, 24%)",
-            width: "1110px",
-            height: "420px",
+
             marginTop: "30px",
           }}>
           <Box
@@ -520,12 +519,12 @@ const Home = () => {
                 flexDirection: "row",
                 alignItems: "center",
                 justifyContent: "space-around",
-                gap: "80px",
+                gap: "40px",
               }}>
               <Box sx={{ display: "flex", flexDirection: "column" }}>
                 <img
                   src="/images/1.svg"
-                  style={{ width: "318px", height: "218px" }}></img>
+                  style={{ width: "340px", height: "240px" }}></img>
                 <a
                   target="_blank"
                   href="https://www.figma.com/proto/3jUS4GKhdfCJJfYFzgVGzq/Research-session?page-id=0%3A1&type=design&node-id=6-450&viewport=332%2C250%2C0.14&t=LcirLfELeNAx6Iw9-1&scaling=min-zoom&mode=design"
@@ -537,7 +536,36 @@ const Home = () => {
                     fontFamily: "Urbanist, sans-serif",
                     letterSpacing: "0.5px",
                     backgroundColor: "#3F3838",
-                    width: "310px",
+                    width: "332px",
+                    height: "40px",
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "center",
+                    padding: "4px",
+                    borderRadius: "6px",
+                    textDecoration: "none",
+                    marginTop: "24px",
+                  }}>
+                  Try it out
+                </a>
+              </Box>
+
+              <Box sx={{ display: "flex", flexDirection: "column" }}>
+                <img
+                  src="/images/3.svg"
+                  style={{ width: "340px", height: "240px" }}></img>
+                <a
+                  target="_blank"
+                  href="https://www.figma.com/proto/zfxFq2ot9vhCabPttT6EJM/3d-carousel-smoothie?page-id=0%3A1&type=design&node-id=1-2&viewport=421%2C229%2C0.05&t=wAlFNWd3O6PnmVup-1&scaling=scale-down&mode=design"
+                  className="button"
+                  style={{
+                    textDecoration: "none",
+                    color: "white",
+                    fontSize: "16px",
+                    fontFamily: "Urbanist, sans-serif",
+                    letterSpacing: "0.5px",
+                    backgroundColor: "#3F3838",
+                    width: "332px",
                     height: "40px",
                     display: "flex",
                     alignItems: "center",
@@ -553,10 +581,10 @@ const Home = () => {
               <Box sx={{ display: "flex", flexDirection: "column" }}>
                 <img
                   src="/images/2.svg"
-                  style={{ width: "318px", height: "218px" }}></img>
+                  style={{ width: "340px", height: "240px" }}></img>
                 <a
                   target="_blank"
-                  href="https://www.figma.com/proto/3jUS4GKhdfCJJfYFzgVGzq/Research-session?page-id=46%3A125&type=design&node-id=46-126&viewport=408%2C303%2C0.08&t=dRtKDu6PKB0qHWVW-1&scaling=scale-down&starting-point-node-id=46%3A126&mode=design"
+                  href="https://www.figma.com/proto/L4dUK5V0DEEuPv2gWBdiIJ/3d-carousel-landing-page?page-id=0%3A1&type=design&node-id=1-17&viewport=398%2C293%2C0.03&t=mDDGWiWkxQoEo8QU-1&scaling=scale-down&mode=design"
                   className="button"
                   style={{
                     textDecoration: "none",
@@ -565,35 +593,7 @@ const Home = () => {
                     fontFamily: "Urbanist, sans-serif",
                     letterSpacing: "0.5px",
                     backgroundColor: "#3F3838",
-                    width: "310px",
-                    height: "40px",
-                    display: "flex",
-                    alignItems: "center",
-                    justifyContent: "center",
-                    padding: "4px",
-                    borderRadius: "6px",
-                    textDecoration: "none",
-                    marginTop: "24px",
-                  }}>
-                  Try it out
-                </a>
-              </Box>
-              <Box sx={{ display: "flex", flexDirection: "column" }}>
-                <img
-                  src="/images/3.svg"
-                  style={{ width: "318px", height: "218px" }}></img>
-                <a
-                  target="_blank"
-                  href="https://www.figma.com/proto/3jUS4GKhdfCJJfYFzgVGzq/Research-session?page-id=9%3A493&type=design&node-id=12-598&viewport=128%2C140%2C0.05&t=UEvzIsI4rcfVbNH2-1&scaling=scale-down&starting-point-node-id=12%3A598&show-proto-sidebar=1&mode=design"
-                  className="button"
-                  style={{
-                    textDecoration: "none",
-                    color: "white",
-                    fontSize: "16px",
-                    fontFamily: "Urbanist, sans-serif",
-                    letterSpacing: "0.5px",
-                    backgroundColor: "#3F3838",
-                    width: "310px",
+                    width: "332px",
                     height: "40px",
                     display: "flex",
                     alignItems: "center",
